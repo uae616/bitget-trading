@@ -1,0 +1,243 @@
+[bot]
+cycle_seconds = 5
+max_cycles = 0
+reconcile_every_cycles = 5
+log_level = "INFO"
+base_url = "https://api.bitget.com"
+dry_run = false
+
+[portfolio]
+# coin symbols (base assets). Spot symbols are auto-mapped to COINUSDT.
+coins = ["BTC", "ETH", "SOL", "BNB"]
+quote_asset = "USDT"
+max_trade_per_symbol_cooldown_sec = 900
+
+[profit_take]
+enabled = true
+profit_harvest_ratio = 0.10
+min_profit_target_usdt = 1.05
+max_sell_value_ratio_per_cycle = 0.05
+harvest_break_even_pct = 0.03
+harvest_min_batch_pos_ratio = 0.10
+min_harvest_notional_usdt = 1.10
+
+[dip_buy]
+enabled = true
+min_buy_usdt = 1.05
+dust_safety_ratio = 1.2
+max_buy_value_ratio_per_cycle = 0.05
+require_momentum_not_too_negative = true
+momentum_floor_z = -0.5
+
+[momentum]
+short_min = 30
+mid_min = 240
+long_min = 1440
+w_short = 0.5
+w_mid = 0.3
+w_long = 0.2
+
+[trend]
+entry_z = 0.55
+dominance_gap = 0.15
+
+[entry]
+reserve_ratio = 0.0
+reserve_floor_usdt = 0.0
+min_pos_floor_usdt = 1.0
+
+[risk]
+enabled = true
+daily_loss_limit_pct = 0.03
+spot_opposite_close_enabled = true
+spot_opposite_close_loss_pct = 0.03
+spot_opposite_close_first_loss_pct = 0.03
+spot_opposite_close_first_close_ratio = 0.50
+spot_opposite_close_second_loss_pct = 0.10
+spot_opposite_close_second_close_ratio = 1.00
+spot_opposite_close_momentum_z_max = -0.10
+spot_scanner_signal_sell_enabled = false
+spot_scanner_signal_sell_min_score = 6
+spot_scanner_signal_sell_close_ratio = 1.00
+
+[execution]
+enable_convert_buy_fallback = true
+min_sell_notional_usdt = 1.10
+
+[alerts]
+telegram_signals = true
+telegram_near_miss = true
+near_miss_cooldown_sec = 600
+near_signal_z_delta = 0.12
+near_signal_gap_delta = 0.08
+near_signal_cash_ratio = 0.90
+
+[futures_bot]
+enabled = true
+cycle_seconds = 300
+timeframe = "15m"
+dry_run = false
+max_leverage = 3
+log_level = "INFO"
+base_url = "https://api.bitget.com"
+pairs = ["BTC/USDT:USDT", "ETH/USDT:USDT", "SOL/USDT:USDT", "BNB/USDT:USDT"]
+
+[futures_strategy]
+rsi_len = 14
+ma_len = 50
+rsi_long_max = 35
+rsi_short_min = 65
+
+[futures_risk]
+risk_per_trade = 0.0075
+# Bitget FUTURES minimum: 0.01 USDT (minTradeNum: 0.0001)
+# Safety margin: use 0.1 USDT (10x minimum) to account for slippage
+min_order_notional_usdt = 0.1
+max_total_exposure = 0.80
+max_asset_exposure = 0.25
+stop_loss_pct = 0.015
+take_profit_pct = 0.035
+max_drawdown_pause_pct = 0.05
+auto_close_on_drawdown_pause = true
+auto_close_on_signal_flip = true
+auto_close_wrong_direction_only_if_negative = true
+
+[futures_funding]
+enabled = true
+funding_threshold = 0.0005
+funding_exit_threshold = 0.0002
+allocation = 0.20
+enable_spot_hedge = false
+
+# ---------------------------------------------------------------------------
+# Unified Signal Scanner  (all thresholds for the multi-factor scorer)
+# ---------------------------------------------------------------------------
+[scanner]
+# fallback symbols when none are passed via CLI and top-N mode is not used
+symbols = ["BTC", "ETH", "SOL", "BNB"]
+
+# RSI
+rsi_period = 14
+rsi_oversold = 30
+rsi_overbought = 70
+rsi_momentum_low = 40         # momentum zone lower bound
+rsi_momentum_high = 70        # momentum zone upper bound
+
+# MACD
+macd_fast = 12
+macd_slow = 26
+macd_signal_len = 9
+histogram_window = 3          # bars to check for expanding histogram
+
+# ATR
+atr_period = 14
+atr_avg_window = 20           # bars for average ATR comparison
+
+# Moving Average
+ma_len = 50
+
+# Bollinger Bands
+bb_length = 20
+bb_std = 2.0
+
+# Breakout
+breakout_lookback = 20        # N-bar high/low breakout window
+
+# Divergence
+divergence_lookback = 10      # bars for RSI divergence detection
+
+# Noise filter  (from dual_strategy_with_RSI.py)
+noise_ceiling = 0.01          # spread noise above this = too noisy to trade
+min_expected_move = 0.005     # minimum expected move ratio
+
+# Scoring
+min_score_for_signal = 5      # minimum score to generate BUY/SELL (out of ~10)
+telegram_min_score = 5        # dashboard Telegram signal-change alerts require at least this score
+enable_adx_filter = true      # require trend strength confirmation
+adx_period = 14
+adx_min = 20.0
+enable_htf_filter = true      # higher-timeframe bias confirmation
+htf_factor = 4                # build HTF bars by grouping 4 candles
+htf_ma_len = 20               # HTF SMA length
+
+# SL/TP  (from signal_bot/slTpLevels.js)
+atr_sl_tp_multiplier = 1.5    # ATR multiplier for SL/TP distance
+trailing_stop_enabled = true   # include trailing stop at 1x ATR
+fallback_sl_pct = 0.015       # percentage SL when ATR unavailable (1.5%)
+fallback_tp_pct = 0.03        # percentage TP when ATR unavailable (3.0%)
+
+# Feature toggles
+enable_patterns = true         # candlestick engulfing detection
+enable_breakout = true         # N-bar breakout detection
+enable_divergence = true       # RSI divergence detection
+enable_noise_filter = true     # spread noise dampening
+enable_bollinger = true        # Bollinger Band position scoring
+
+
+# ---------------------------------------------------------------------------
+# MT5 Metals / Commodities Scanner
+# Selective by design: aims for fewer, higher-quality signals rather than volume.
+# ---------------------------------------------------------------------------
+[mt5_scanner]
+symbols = ["XAUUSD", "XAGUSD", "USOUSD", "UKOUSD", "NG"]
+primary_timeframe = "M15"
+confirm_timeframe = "H1"
+trend_timeframe = "H4"
+bars = 240
+watch_seconds = 300
+use_trading_hours_filter = false
+trade_hours_utc_start = 6
+trade_hours_utc_end = 21
+stale_candle_tolerance_bars = 8.0
+signal_cooldown_bars = 4
+max_signals_per_day = 12
+min_primary_score = 5
+min_confirm_score = 3
+min_confidence = 0.40
+min_adx = 18.0
+trend_ma_len = 34
+rr_tp1 = 1.0
+rr_tp2 = 1.5
+rr_tp3 = 2.2
+
+[mt5_credentials]
+terminal_path = ""
+login = 858472050
+password = ""
+server = "BTGTMauritiusCapital-MT5-LIVE2"
+
+[mt5_scalper]
+# UPDATED CONFIGURATION - Silver only, M15 timeframe
+# Based on backtest results: XAGUSD (47.4% win rate, +4000 pips)
+
+symbols = ["XAGUSD"]  # Silver ONLY (Gold needs more work - 28% win rate)
+timeframe = "M15"     # 15-minute candles (not M5 - too noisy)
+bars = 200
+cycle_seconds = 60
+dry_run = true        # ALWAYS start in dry-run
+log_level = "INFO"
+
+# DYNAMIC POSITION SIZING (replaces hardcoded position_size)
+# Volume is calculated automatically based on account balance and risk tolerance
+use_dynamic_sizing = true  # Set to false to use fixed position_size
+account_balance = 5000     # Your account balance in USD
+risk_percent = 1.0         # Risk per trade as % of account (1 = 1% per trade)
+position_size = 0.01       # Fallback for when dynamic sizing is disabled
+
+# CORRECTED RISK PARAMETERS (Fixed pip calculation)
+# Now: 50 pips = 5.00 price movement (not 0.50)
+# Now: 100 pips = 10.00 price movement (not 1.00)
+stop_loss_pips = 50        # 50 pips = $5.00 loss at full volume
+take_profit_pips = 100     # 100 pips = $10.00 profit at full volume
+
+[mt5_scalper.symbol_overrides.XAUUSD]
+# Gold needs wider stops/targets to avoid spread/noise stop-outs.
+stop_loss_pips = 300
+take_profit_pips = 600
+
+
+
+
+
+
+

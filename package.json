@@ -1,0 +1,16 @@
+{
+  "name": "rebalance_bot",
+  "version": "1.0.0",
+  "description": "1) Create venv + install deps:\r \\\\\\powershell\r cd C:\\Users\\Administrator\\rebalance_bot\r .\\scripts\\setup_venv.ps1\r copy .env.example .env\r # edit .env with your keys\r \\\\\\",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bitget-api": "^3.1.6"
+  }
+}

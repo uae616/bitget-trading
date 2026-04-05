@@ -1,0 +1,3 @@
+timestamp_utc,cycles_before,cycles_after,cycles_delta,equity_before_usdt,equity_after_usdt,equity_delta_usdt,roi_pct,cash_delta_usdt,realized_pnl_delta_usdt,harvested_pnl_delta_usdt,fees_delta_usdt,net_after_fees_delta_usdt,status
+"2026-02-24T00:35:18Z","500","501","1","73.2556439493","73.25485599679999","-0.0007879525000049625","-0.0010756201946027558","0","0","0","0","-0.0007879525000049625","LOSS"
+"2026-02-24T00:47:59Z","506","556","50","73.39507715549999","73.3971041172","0.002026961700011043","0.002761713426251435","0","0","0","0","0.002026961700011043","PROFIT"

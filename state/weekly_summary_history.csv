@@ -1,0 +1,3 @@
+"timestamp_utc","window_mode","lookback_days","window_start_utc","window_end_utc","runs","wins","losses","flats","win_rate_pct","average_roi_pct","total_net_after_fees_usdt","total_equity_delta_usdt","total_fees_delta_usdt"
+"2026-02-24T00:35:55Z","ALL","7","2026-02-24T00:35:18Z","2026-02-24T00:35:18Z","1","0","1","0","0","-0.0010756201946027558","-0.0007879525000049625","-0.0007879525000049625","0"
+"2026-02-24T00:47:59Z","LOOKBACK_DAYS","7","2026-02-24T00:35:18Z","2026-02-24T00:47:59Z","2","1","1","0","50","0.0008430466158243396","0.0012390092000060804","0.0012390092000060804","0"

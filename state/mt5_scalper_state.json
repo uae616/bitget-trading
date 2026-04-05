@@ -1,0 +1,1623 @@
+{
+  "meta": {
+    "cycle": 463,
+    "last_run": "2026-04-02T03:36:08+00:00",
+    "signal_meta": {
+      "XAUUSD": {
+        "bar_time": 1775111700,
+        "direction": "BUY",
+        "reason": "ema_proxy_fast_over_slow"
+      },
+      "XAGUSD": {
+        "bar_time": 1775111700,
+        "direction": "SELL",
+        "reason": "ema_proxy_fast_under_slow"
+      }
+    }
+  },
+  "positions": {},
+  "activities": [
+    {
+      "ts": "2026-04-01T19:41:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:41:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:42:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:42:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:43:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:43:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:44:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:44:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:45:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:45:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:46:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:46:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:47:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:47:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:48:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:48:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:49:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:49:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:50:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:50:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:51:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:51:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:52:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:52:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:53:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:53:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:54:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:54:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:55:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:55:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:56:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:56:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:57:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:57:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:58:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:58:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:59:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T19:59:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:00:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:00:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:01:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:01:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:02:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:02:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:03:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:03:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:04:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:04:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:05:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:05:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:06:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:06:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:07:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:07:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:08:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:08:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:09:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:09:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:10:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:10:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:11:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:11:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:12:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:12:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:13:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:13:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:14:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:14:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:15:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:15:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:16:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:16:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:17:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:17:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:18:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:18:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:19:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:19:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:20:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:20:59+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:21:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:21:59+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:22:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:22:59+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:23:59+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:24:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:25:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:25:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:26:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:26:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:27:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:27:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:28:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:28:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:29:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:29:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:30:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:30:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:31:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:31:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:32:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:32:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:33:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:33:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:34:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:34:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:35:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:35:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:36:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:36:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:37:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:37:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:38:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:38:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:39:00+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T20:39:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:40:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:40:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:41:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:41:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:42:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:42:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:43:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:43:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:44:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:44:00+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:48:45+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:48:45+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:50:45+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:50:45+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:55:45+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T20:55:45+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:00:46+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:00:46+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:05:46+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:05:46+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:10:46+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:10:46+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:15:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:15:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:20:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:20:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:25:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:25:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:30:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:30:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:35:47+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T22:35:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:40:47+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T22:40:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:45:47+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T22:45:47+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:50:48+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T22:50:48+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-01T22:55:48+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T22:55:48+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:00:48+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:00:48+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:05:49+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:05:49+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:10:49+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:10:49+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:15:49+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:15:49+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:20:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:20:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:25:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:25:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:30:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:30:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:35:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:35:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:40:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:40:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:45:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:45:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:50:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:50:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:55:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-01T23:55:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:00:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:00:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:05:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:05:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:10:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:10:50+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:15:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:15:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:20:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:20:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:25:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:25:51+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T00:30:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:30:51+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T00:35:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:35:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:40:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:40:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:45:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:45:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:50:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:50:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:55:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T00:55:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T01:00:51+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:00:51+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAGUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T01:03:51+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:05:51+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:05:51+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:10:51+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:10:51+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:15:52+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:15:52+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:20:52+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:20:52+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:25:52+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:25:52+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:30:52+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:30:52+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:44:06+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:44:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:45:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:45:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:50:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:50:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:55:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T01:55:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:00:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:00:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:05:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:05:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:10:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:10:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:15:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:15:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:20:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:20:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:25:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:25:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:30:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:30:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:35:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:35:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:40:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:40:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:45:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:45:07+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:50:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:50:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:55:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T02:55:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:00:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:00:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:05:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:05:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:10:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:10:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:15:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:15:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:20:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:20:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:25:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAUUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:25:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:30:08+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T03:30:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    },
+    {
+      "ts": "2026-04-02T03:35:08+00:00",
+      "action": "SIGNAL_BUY",
+      "symbol": "XAUUSD",
+      "message": "signal=BUY score=1 conf=0.52 reason=ema_proxy_fast_over_slow"
+    },
+    {
+      "ts": "2026-04-02T03:35:08+00:00",
+      "action": "SIGNAL_SELL",
+      "symbol": "XAGUSD",
+      "message": "signal=SELL score=1 conf=0.52 reason=ema_proxy_fast_under_slow"
+    }
+  ]
+}

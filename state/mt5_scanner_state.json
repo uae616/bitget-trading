@@ -1,0 +1,494 @@
+{
+  "history": [
+    {
+      "ts": "2026-03-27T14:30:07.127080+00:00",
+      "date": "2026-03-27",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1774632600,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-27T14:55:08.502363+00:00",
+      "date": "2026-03-27",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1774633500,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-27T15:00:08.823325+00:00",
+      "date": "2026-03-27",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1774634400,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-27T16:40:15.128429+00:00",
+      "date": "2026-03-27",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1774639800,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-27T18:15:23.364350+00:00",
+      "date": "2026-03-27",
+      "symbol": "NG",
+      "direction": "BUY",
+      "bar_time": 1774646100,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-27T19:10:27.801872+00:00",
+      "date": "2026-03-27",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1774648800,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-27T20:25:34.318223+00:00",
+      "date": "2026-03-27",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1774653300,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-29T23:43:04.230156+00:00",
+      "date": "2026-03-29",
+      "symbol": "XAGUSD",
+      "direction": "SELL",
+      "bar_time": 1774837800,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-29T23:43:04.372157+00:00",
+      "date": "2026-03-29",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1774837800,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-29T23:43:04.606264+00:00",
+      "date": "2026-03-29",
+      "symbol": "UKOUSD",
+      "direction": "BUY",
+      "bar_time": 1774837800,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T00:07:56.832268+00:00",
+      "date": "2026-03-30",
+      "symbol": "NG",
+      "direction": "SELL",
+      "bar_time": 1774839600,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T00:48:05.574931+00:00",
+      "date": "2026-03-30",
+      "symbol": "UKOUSD",
+      "direction": "BUY",
+      "bar_time": 1774842300,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T01:03:06.585533+00:00",
+      "date": "2026-03-30",
+      "symbol": "XAUUSD",
+      "direction": "SELL",
+      "bar_time": 1774843200,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T01:03:06.787534+00:00",
+      "date": "2026-03-30",
+      "symbol": "NG",
+      "direction": "SELL",
+      "bar_time": 1774843200,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T02:03:11.078964+00:00",
+      "date": "2026-03-30",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1774846800,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-30T02:03:11.291965+00:00",
+      "date": "2026-03-30",
+      "symbol": "NG",
+      "direction": "SELL",
+      "bar_time": 1774846800,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T03:08:16.623312+00:00",
+      "date": "2026-03-30",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1774850400,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-30T03:23:17.959870+00:00",
+      "date": "2026-03-30",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1774851300,
+      "score": 8,
+      "confidence": 0.6666666666666666
+    },
+    {
+      "ts": "2026-03-30T03:33:18.723588+00:00",
+      "date": "2026-03-30",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1774852200,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T04:03:21.782035+00:00",
+      "date": "2026-03-30",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1774854000,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T04:23:23.823559+00:00",
+      "date": "2026-03-30",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1774854900,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-30T05:03:27.166741+00:00",
+      "date": "2026-03-30",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1774857600,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-31T00:03:50.216385+00:00",
+      "date": "2026-03-31",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1774926000,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-31T00:19:20.374177+00:00",
+      "date": "2026-03-31",
+      "symbol": "XAGUSD",
+      "direction": "SELL",
+      "bar_time": 1774926900,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-31T00:19:21.175413+00:00",
+      "date": "2026-03-31",
+      "symbol": "UKOUSD",
+      "direction": "BUY",
+      "bar_time": 1774926900,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-31T01:29:53.912674+00:00",
+      "date": "2026-03-31",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1774930500,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-03-31T01:39:55.359861+00:00",
+      "date": "2026-03-31",
+      "symbol": "NG",
+      "direction": "SELL",
+      "bar_time": 1774931400,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-03-31T01:49:55.865241+00:00",
+      "date": "2026-03-31",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1774932300,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-03-31T02:15:00.450097+00:00",
+      "date": "2026-03-31",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1774934100,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-03-31T02:30:02.585549+00:00",
+      "date": "2026-03-31",
+      "symbol": "NG",
+      "direction": "SELL",
+      "bar_time": 1774935000,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-03-31T02:45:04.760599+00:00",
+      "date": "2026-03-31",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1774935900,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-03-31T03:15:07.631398+00:00",
+      "date": "2026-03-31",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1774937700,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-03-31T05:10:25.022844+00:00",
+      "date": "2026-03-31",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1774944000,
+      "score": 7,
+      "confidence": 0.5833333333333334
+    },
+    {
+      "ts": "2026-03-31T05:10:25.143847+00:00",
+      "date": "2026-03-31",
+      "symbol": "UKOUSD",
+      "direction": "BUY",
+      "bar_time": 1774944000,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-01T19:43:35.986555+00:00",
+      "date": "2026-04-01",
+      "symbol": "UKOUSD",
+      "direction": "SELL",
+      "bar_time": 1775082600,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-01T20:38:41.418726+00:00",
+      "date": "2026-04-01",
+      "symbol": "UKOUSD",
+      "direction": "SELL",
+      "bar_time": 1775086200,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-01T22:48:58.191072+00:00",
+      "date": "2026-04-01",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1775094300,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-01T23:49:09.010941+00:00",
+      "date": "2026-04-01",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1775097900,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-02T00:04:10.394690+00:00",
+      "date": "2026-04-02",
+      "symbol": "UKOUSD",
+      "direction": "SELL",
+      "bar_time": 1775098800,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-02T00:09:11.002131+00:00",
+      "date": "2026-04-02",
+      "symbol": "USOUSD",
+      "direction": "SELL",
+      "bar_time": 1775098800,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-02T01:04:17.220275+00:00",
+      "date": "2026-04-02",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1775102400,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-02T01:34:25.064927+00:00",
+      "date": "2026-04-02",
+      "symbol": "UKOUSD",
+      "direction": "BUY",
+      "bar_time": 1775104200,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-02T02:00:23.424399+00:00",
+      "date": "2026-04-02",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1775106000,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-02T03:20:30.140386+00:00",
+      "date": "2026-04-02",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1775110500,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-02T03:20:30.217387+00:00",
+      "date": "2026-04-02",
+      "symbol": "UKOUSD",
+      "direction": "BUY",
+      "bar_time": 1775110500,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-02T12:12:40.367409+00:00",
+      "date": "2026-04-02",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1775142000,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-02T12:22:41.372605+00:00",
+      "date": "2026-04-02",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1775142900,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-02T13:02:44.081138+00:00",
+      "date": "2026-04-02",
+      "symbol": "XAGUSD",
+      "direction": "SELL",
+      "bar_time": 1775145600,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-02T13:12:44.685146+00:00",
+      "date": "2026-04-02",
+      "symbol": "USOUSD",
+      "direction": "BUY",
+      "bar_time": 1775145600,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-02T13:12:44.801149+00:00",
+      "date": "2026-04-02",
+      "symbol": "NG",
+      "direction": "SELL",
+      "bar_time": 1775145600,
+      "score": 5,
+      "confidence": 0.4166666666666667
+    },
+    {
+      "ts": "2026-04-03T00:02:48.355147+00:00",
+      "date": "2026-04-03",
+      "symbol": "XAUUSD",
+      "direction": "BUY",
+      "bar_time": 1775173500,
+      "score": 6,
+      "confidence": 0.5
+    },
+    {
+      "ts": "2026-04-03T00:02:48.398151+00:00",
+      "date": "2026-04-03",
+      "symbol": "XAGUSD",
+      "direction": "BUY",
+      "bar_time": 1775173500,
+      "score": 6,
+      "confidence": 0.5
+    }
+  ],
+  "emitted": {
+    "USOUSD": {
+      "direction": "BUY",
+      "bar_time": 1775145600
+    },
+    "XAGUSD": {
+      "direction": "BUY",
+      "bar_time": 1775173500
+    },
+    "XAUUSD": {
+      "direction": "BUY",
+      "bar_time": 1775173500
+    },
+    "NG": {
+      "direction": "SELL",
+      "bar_time": 1775145600
+    },
+    "UKOUSD": {
+      "direction": "BUY",
+      "bar_time": 1775110500
+    }
+  }
+}

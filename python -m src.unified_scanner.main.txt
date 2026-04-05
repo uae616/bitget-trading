@@ -1,0 +1,1 @@
+python -m src.unified_scanner.main BTCUSDT SOLUSDT ZECUSDT--exchange bitget --watch 60 --debug

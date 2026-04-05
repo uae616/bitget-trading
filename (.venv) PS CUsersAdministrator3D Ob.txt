@@ -1,0 +1,1571 @@
+(.venv) PS C:\Users\Administrator\3D Objects\WORKSPACE> python main.py --live
+🔍 compute_atr is from: core.indicators
+🧪 filter_config loaded from YAML: {'diagnostics': True, 'near_miss_alerts': {'enabled': True}, 'ma_stack': {'enabled': True, 'fast': 7, 'mid': 25, 'slow': 99, 'tolerance': 0.008}, 'rsi': {'enabled': True, 'period': 14, 'threshold': 40, 'oversold': 35, 'overbought': 65}, 'bollinger': {'enabled': True, 'length': 20, 'stddev': 2.0, 'bb_threshold': 0.15}, 'open_interest': {'enabled': True, 'min_oi': 500000, 'max_ratio': 0.1}, 'funding': {'enabled': True, 'max_rate': 0.005, 'max_funding': 0.02, 'auto_close_threshold': 0.02}, 'long_short': {'enabled': True, 'min_ratio': 1.2}, 'volume_confluence': {'enabled': True, 'vol_multiplier': 1.15, 'lookback': 20}}
+WORKING DIR: C:\Users\Administrator\3D Objects\WORKSPACE
+🚀 Running in LIVE mode...
+2026-03-10 07:46:48,442 [INFO] 🔎 Refresh check timezone mode: last_update=UTC (z_suffix=False naive=False) now=UTC-aware
+2026-03-10 07:46:53,641 [INFO] 📊 Using optimized symbol list (193 symbols)
+2026-03-10 07:46:53,676 [INFO] 🔍 Scanning ZAMAUSDT
+🔎 Fetching candles | Symbol: ZAMAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: ZAMAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:47:17,916 [INFO] 🔍 Scanning TACUSDT
+🔎 Fetching candles | Symbol: TACUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: TACUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:47:46,834 [INFO] 🔍 Scanning WETUSDT
+🔎 Fetching candles | Symbol: WETUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: WETUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:48:07,418 [INFO] 🔍 Scanning BREVUSDT
+🔎 Fetching candles | Symbol: BREVUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: BREVUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:48:31,957 [INFO] 🔍 Scanning XAUTUSDT
+🔎 Fetching candles | Symbol: XAUTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: XAUTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:48:56,374 [INFO] 🔍 Scanning XAUUSDT
+🔎 Fetching candles | Symbol: XAUUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: XAUUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:49:19,744 [INFO] 🔍 Scanning XDCUSDT
+🔎 Fetching candles | Symbol: XDCUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: XDCUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:49:40,762 [INFO] 🔍 Scanning WAVESUSDT
+🔎 Fetching candles | Symbol: WAVESUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: WAVESUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:50:02,442 [INFO] 🔍 Scanning TAIKOUSDT
+🔎 Fetching candles | Symbol: TAIKOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: TAIKOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:50:27,552 [INFO] 🔍 Scanning WLDUSDT
+🔎 Fetching candles | Symbol: WLDUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: WLDUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:50:48,636 [INFO] 🔍 Scanning XAGUSDT
+🔎 Fetching candles | Symbol: XAGUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: XAGUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:51:12,199 [INFO] 🔍 Scanning BABYUSDT
+🔎 Fetching candles | Symbol: BABYUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: BABYUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:51:54,766 [INFO] 📨 Telegram alert sent
+2026-03-10 07:51:59,524 [INFO] 📨 Telegram alert sent
+2026-03-10 07:51:59,542 [INFO] ✅ SIGNAL: BABYUSDT
+2026-03-10 07:51:59,607 [INFO] 🔍 Scanning AVNTUSDT
+🔎 Fetching candles | Symbol: AVNTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: AVNTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:52:18,965 [INFO] 🔍 Scanning AWEUSDT
+🔎 Fetching candles | Symbol: AWEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: AWEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:52:45,666 [INFO] 🔍 Scanning B2USDT
+🔎 Fetching candles | Symbol: B2USDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: B2USDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:53:07,515 [INFO] 🔍 Scanning ARIAUSDT
+🔎 Fetching candles | Symbol: ARIAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: ARIAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:53:27,288 [INFO] 🔍 Scanning XPLUSDT
+🔎 Fetching candles | Symbol: XPLUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: XPLUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:53:48,671 [INFO] 🔍 Scanning WCTUSDT
+🔎 Fetching candles | Symbol: WCTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: WCTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:54:11,074 [INFO] 🔍 Scanning 1000XECUSDT
+🔎 Fetching candles | Symbol: 1000XECUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 1000XECUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:54:31,933 [INFO] 🔍 Scanning 0GUSDT
+🔎 Fetching candles | Symbol: 0GUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 0GUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:54:52,022 [INFO] 🔍 Scanning YGGUSDT
+🔎 Fetching candles | Symbol: YGGUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: YGGUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:55:13,256 [INFO] 🔍 Scanning 1000000MOGUSDT
+🔎 Fetching candles | Symbol: 1000000MOGUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 1000000MOGUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:55:35,418 [INFO] 🔍 Scanning UMAUSDT
+🔎 Fetching candles | Symbol: UMAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: UMAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:55:58,835 [INFO] 🔍 Scanning 1000BONKUSDT
+🔎 Fetching candles | Symbol: 1000BONKUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 1000BONKUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:56:19,166 [INFO] 🔍 Scanning 1000CATUSDT
+🔎 Fetching candles | Symbol: 1000CATUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 1000CATUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:56:41,392 [INFO] 🔍 Scanning 1000RATSUSDT
+🔎 Fetching candles | Symbol: 1000RATSUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 1000RATSUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:57:07,760 [INFO] 🔍 Scanning UNHUSDT
+🔎 Fetching candles | Symbol: UNHUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: UNHUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:57:37,143 [INFO] 🔍 Scanning 1000SATSUSDT
+🔎 Fetching candles | Symbol: 1000SATSUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 1000SATSUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:58:03,130 [INFO] 🔍 Scanning ZBCNUSDT
+🔎 Fetching candles | Symbol: ZBCNUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: ZBCNUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:58:26,133 [INFO] 🔍 Scanning UNIUSDT
+🔎 Fetching candles | Symbol: UNIUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: UNIUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:58:50,093 [INFO] 🔍 Scanning 1INCHUSDT
+🔎 Fetching candles | Symbol: 1INCHUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 1INCHUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:59:12,369 [INFO] 🔍 Scanning ZBTUSDT
+🔎 Fetching candles | Symbol: ZBTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: ZBTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:59:35,433 [INFO] 🔍 Scanning 1MBABYDOGEUSDT
+🔎 Fetching candles | Symbol: 1MBABYDOGEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 04:00 → 2026-03-10 07:00
+🔎 Fetching candles | Symbol: 1MBABYDOGEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 16:00 → 2026-03-10 04:00
+2026-03-10 07:59:59,001 [INFO] 🔍 Scanning USDCUSDT
+🔎 Fetching candles | Symbol: USDCUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: USDCUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:00:22,020 [INFO] 🔍 Scanning 1MCHEEMSUSDT
+🔎 Fetching candles | Symbol: 1MCHEEMSUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: 1MCHEEMSUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:00:44,401 [INFO] 🔍 Scanning ZECUSDT
+🔎 Fetching candles | Symbol: ZECUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZECUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:01:07,836 [INFO] 🔍 Scanning 2ZUSDT
+🔎 Fetching candles | Symbol: 2ZUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: 2ZUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:01:29,212 [INFO] 🔍 Scanning USELESSUSDT
+🔎 Fetching candles | Symbol: USELESSUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: USELESSUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:01:52,550 [INFO] 🔍 Scanning 4USDT
+🔎 Fetching candles | Symbol: 4USDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: 4USDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:02:14,677 [INFO] 🔍 Scanning ZENUSDT
+🔎 Fetching candles | Symbol: ZENUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZENUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:02:41,268 [INFO] 🔍 Scanning AAPLUSDT
+🔎 Fetching candles | Symbol: AAPLUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AAPLUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:03:03,175 [INFO] 🔍 Scanning USTCUSDT
+🔎 Fetching candles | Symbol: USTCUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: USTCUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:03:26,308 [INFO] 🔍 Scanning AAVEUSDT
+🔎 Fetching candles | Symbol: AAVEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AAVEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:03:46,162 [INFO] 🔍 Scanning USUALUSDT
+🔎 Fetching candles | Symbol: USUALUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: USUALUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:04:07,316 [INFO] 🔍 Scanning ACEUSDT
+🔎 Fetching candles | Symbol: ACEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ACEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:04:27,451 [INFO] 🔍 Scanning ZETAUSDT
+🔎 Fetching candles | Symbol: ZETAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZETAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:04:48,030 [INFO] 🔍 Scanning ACHUSDT
+🔎 Fetching candles | Symbol: ACHUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ACHUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:05:08,608 [INFO] 🔍 Scanning USUSDT
+🔎 Fetching candles | Symbol: USUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: USUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:05:28,840 [INFO] 🔍 Scanning ACNUSDT
+🔎 Fetching candles | Symbol: ACNUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ACNUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:05:49,586 [INFO] 🔍 Scanning ZILUSDT
+🔎 Fetching candles | Symbol: ZILUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZILUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:06:11,557 [INFO] 🔍 Scanning ACTUSDT
+🔎 Fetching candles | Symbol: ACTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ACTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:06:35,026 [INFO] 🔍 Scanning VANAUSDT
+🔎 Fetching candles | Symbol: VANAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VANAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:06:58,294 [INFO] 🔍 Scanning ACUUSDT
+🔎 Fetching candles | Symbol: ACUUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ACUUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:07:27,296 [INFO] 🔍 Scanning ZKCUSDT
+🔎 Fetching candles | Symbol: ZKCUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZKCUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:07:53,446 [INFO] 🔍 Scanning ACXUSDT
+🔎 Fetching candles | Symbol: ACXUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ACXUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:08:18,634 [INFO] 🔍 Scanning VANRYUSDT
+🔎 Fetching candles | Symbol: VANRYUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VANRYUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:08:40,702 [INFO] 🔍 Scanning ADAUSDT
+🔎 Fetching candles | Symbol: ADAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ADAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:09:04,765 [INFO] 🔍 Scanning ZKJUSDT
+🔎 Fetching candles | Symbol: ZKJUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZKJUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:09:26,639 [INFO] 🔍 Scanning AERGOUSDT
+🔎 Fetching candles | Symbol: AERGOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AERGOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:09:49,513 [INFO] 🔍 Scanning VELODROMEUSDT
+🔎 Fetching candles | Symbol: VELODROMEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VELODROMEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:10:13,523 [INFO] 🔍 Scanning AEROUSDT
+🔎 Fetching candles | Symbol: AEROUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AEROUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:10:36,380 [INFO] 🔍 Scanning ZKPUSDT
+🔎 Fetching candles | Symbol: ZKPUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZKPUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:10:58,944 [INFO] 🔍 Scanning AEVOUSDT
+🔎 Fetching candles | Symbol: AEVOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AEVOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:11:20,548 [INFO] 🔍 Scanning VELOUSDT
+🔎 Fetching candles | Symbol: VELOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VELOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:11:42,403 [INFO] 🔍 Scanning AGLDUSDT
+🔎 Fetching candles | Symbol: AGLDUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AGLDUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:12:05,072 [INFO] 🔍 Scanning ZKUSDT
+🔎 Fetching candles | Symbol: ZKUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZKUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:12:29,809 [INFO] 🔍 Scanning AINUSDT
+🔎 Fetching candles | Symbol: AINUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AINUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:12:54,850 [INFO] 🔍 Scanning VELVETUSDT
+🔎 Fetching candles | Symbol: VELVETUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VELVETUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:13:18,657 [INFO] 🔍 Scanning AIOUSDT
+🔎 Fetching candles | Symbol: AIOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AIOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:13:42,186 [INFO] 🔍 Scanning ZORAUSDT
+🔎 Fetching candles | Symbol: ZORAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZORAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:14:07,080 [INFO] 🔍 Scanning AIUSDT
+🔎 Fetching candles | Symbol: AIUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AIUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:14:30,713 [INFO] 🔍 Scanning VETUSDT
+🔎 Fetching candles | Symbol: VETUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VETUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:14:52,870 [INFO] 🔍 Scanning AIXBTUSDT
+🔎 Fetching candles | Symbol: AIXBTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AIXBTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:15:16,225 [INFO] 🔍 Scanning ZROUSDT
+🔎 Fetching candles | Symbol: ZROUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZROUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:15:39,446 [INFO] 🔍 Scanning AKTUSDT
+🔎 Fetching candles | Symbol: AKTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AKTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:15:58,233 [INFO] 🔍 Scanning VICUSDT
+🔎 Fetching candles | Symbol: VICUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VICUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:16:21,369 [INFO] 🔍 Scanning ALCHUSDT
+🔎 Fetching candles | Symbol: ALCHUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ALCHUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:16:40,076 [INFO] 🔍 Scanning ZRXUSDT
+🔎 Fetching candles | Symbol: ZRXUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ZRXUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:17:09,876 [INFO] 🔍 Scanning ALGOUSDT
+🔎 Fetching candles | Symbol: ALGOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ALGOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:17:36,075 [INFO] 🔍 Scanning VINEUSDT
+🔎 Fetching candles | Symbol: VINEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VINEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:18:03,084 [INFO] 🔍 Scanning ALICEUSDT
+🔎 Fetching candles | Symbol: ALICEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ALICEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:18:26,092 [INFO] 🔍 Scanning VIRTUALUSDT
+🔎 Fetching candles | Symbol: VIRTUALUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VIRTUALUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:18:49,451 [INFO] 🔍 Scanning VTHOUSDT
+🔎 Fetching candles | Symbol: VTHOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VTHOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:19:11,849 [INFO] 🔍 Scanning ALLOUSDT
+🔎 Fetching candles | Symbol: ALLOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ALLOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:19:42,615 [INFO] 🔍 Scanning VVVUSDT
+🔎 Fetching candles | Symbol: VVVUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: VVVUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:20:06,002 [INFO] 🔍 Scanning ALTUSDT
+🔎 Fetching candles | Symbol: ALTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ALTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:20:32,463 [INFO] 🔍 Scanning AMZNUSDT
+🔎 Fetching candles | Symbol: AMZNUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AMZNUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:20:53,524 [INFO] 🔍 Scanning ANIMEUSDT
+🔎 Fetching candles | Symbol: ANIMEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ANIMEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:21:13,960 [INFO] 🔍 Scanning ANKRUSDT
+🔎 Fetching candles | Symbol: ANKRUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ANKRUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:21:36,212 [INFO] 🔍 Scanning APEUSDT
+🔎 Fetching candles | Symbol: APEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: APEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:21:59,941 [INFO] 🔍 Scanning API3USDT
+🔎 Fetching candles | Symbol: API3USDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: API3USDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:22:16,758 [INFO] 🔍 Scanning APPUSDT
+🔎 Fetching candles | Symbol: APPUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: APPUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:22:39,013 [INFO] 🔍 Scanning APRUSDT
+🔎 Fetching candles | Symbol: APRUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: APRUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:23:05,252 [INFO] 🔍 Scanning APTUSDT
+🔎 Fetching candles | Symbol: APTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: APTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:23:34,884 [INFO] 🔍 Scanning ARBUSDT
+🔎 Fetching candles | Symbol: ARBUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ARBUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:24:01,802 [INFO] 🔍 Scanning ARCUSDT
+🔎 Fetching candles | Symbol: ARCUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ARCUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:24:30,240 [INFO] 🔍 Scanning ARKMUSDT
+🔎 Fetching candles | Symbol: ARKMUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ARKMUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:24:58,960 [INFO] 🔍 Scanning ARKUSDT
+🔎 Fetching candles | Symbol: ARKUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ARKUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:25:26,234 [INFO] 🔍 Scanning ARMUSDT
+🔎 Fetching candles | Symbol: ARMUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ARMUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:25:40,953 [INFO] 🔍 Scanning ARPAUSDT
+🔎 Fetching candles | Symbol: ARPAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ARPAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:25:55,018 [INFO] 🔍 Scanning ARUSDT
+🔎 Fetching candles | Symbol: ARUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ARUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:26:10,007 [INFO] 🔍 Scanning ASMLUSDT
+🔎 Fetching candles | Symbol: ASMLUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ASMLUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:26:25,475 [INFO] 🔍 Scanning ASRUSDT
+🔎 Fetching candles | Symbol: ASRUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ASRUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:26:40,192 [INFO] 🔍 Scanning ASTERUSDT
+🔎 Fetching candles | Symbol: ASTERUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ASTERUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:26:54,903 [INFO] 🔍 Scanning ASTRUSDT
+🔎 Fetching candles | Symbol: ASTRUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ASTRUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:27:10,873 [INFO] 🔍 Scanning ATAUSDT
+🔎 Fetching candles | Symbol: ATAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ATAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:27:29,625 [INFO] 🔍 Scanning ATHUSDT
+🔎 Fetching candles | Symbol: ATHUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ATHUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:27:43,809 [INFO] 🔍 Scanning ATOMUSDT
+🔎 Fetching candles | Symbol: ATOMUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ATOMUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:27:58,628 [INFO] 🔍 Scanning ATUSDT
+🔎 Fetching candles | Symbol: ATUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: ATUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:28:13,123 [INFO] 🔍 Scanning AUCTIONUSDT
+🔎 Fetching candles | Symbol: AUCTIONUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AUCTIONUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:28:28,389 [INFO] 🔍 Scanning AUSDT
+🔎 Fetching candles | Symbol: AUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:28:43,872 [INFO] 🔍 Scanning AVAUSDT
+🔎 Fetching candles | Symbol: AVAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AVAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:28:59,031 [INFO] 🔍 Scanning AVAXUSDT
+🔎 Fetching candles | Symbol: AVAXUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AVAXUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:29:14,306 [INFO] 🔍 Scanning AXLUSDT
+🔎 Fetching candles | Symbol: AXLUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AXLUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:29:28,366 [INFO] 🔍 Scanning AXSUSDT
+🔎 Fetching candles | Symbol: AXSUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: AXSUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:29:41,899 [INFO] 🔍 Scanning B3USDT
+🔎 Fetching candles | Symbol: B3USDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: B3USDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:29:58,237 [INFO] 🔍 Scanning BABAUSDT
+🔎 Fetching candles | Symbol: BABAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BABAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:30:12,884 [INFO] 🔍 Scanning BANANAS31USDT
+🔎 Fetching candles | Symbol: BANANAS31USDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BANANAS31USDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:30:27,343 [INFO] 🔍 Scanning BANANAUSDT
+🔎 Fetching candles | Symbol: BANANAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BANANAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:30:42,683 [INFO] 🔍 Scanning BANDUSDT
+🔎 Fetching candles | Symbol: BANDUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BANDUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:30:58,754 [INFO] 🔍 Scanning BANKUSDT
+🔎 Fetching candles | Symbol: BANKUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BANKUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:31:15,573 [INFO] 🔍 Scanning BANUSDT
+🔎 Fetching candles | Symbol: BANUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BANUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:31:31,572 [INFO] 🔍 Scanning BARDUSDT
+🔎 Fetching candles | Symbol: BARDUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BARDUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:31:47,444 [INFO] 🔍 Scanning BASUSDT
+🔎 Fetching candles | Symbol: BASUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BASUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:32:04,357 [INFO] 🔍 Scanning BATUSDT
+🔎 Fetching candles | Symbol: BATUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BATUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:32:20,374 [INFO] 🔍 Scanning BBUSDT
+🔎 Fetching candles | Symbol: BBUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BBUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:32:39,322 [INFO] 🔍 Scanning BCHUSDT
+🔎 Fetching candles | Symbol: BCHUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BCHUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:32:56,127 [INFO] 🔍 Scanning BEAMUSDT
+🔎 Fetching candles | Symbol: BEAMUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BEAMUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:33:13,454 [INFO] 🔍 Scanning BEATUSDT
+🔎 Fetching candles | Symbol: BEATUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BEATUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:33:30,172 [INFO] 🔍 Scanning BELUSDT
+🔎 Fetching candles | Symbol: BELUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BELUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:33:46,091 [INFO] 🔍 Scanning BERAUSDT
+🔎 Fetching candles | Symbol: BERAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BERAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:34:03,518 [INFO] 🔍 Scanning BGBUSDT
+🔎 Fetching candles | Symbol: BGBUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BGBUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:34:18,633 [INFO] 🔍 Scanning BICOUSDT
+🔎 Fetching candles | Symbol: BICOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BICOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:34:34,095 [INFO] 🔍 Scanning BIGTIMEUSDT
+🔎 Fetching candles | Symbol: BIGTIMEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BIGTIMEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:34:50,593 [INFO] 🔍 Scanning BIOUSDT
+🔎 Fetching candles | Symbol: BIOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BIOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:35:07,479 [INFO] 🔍 Scanning BIRBUSDT
+🔎 Fetching candles | Symbol: BIRBUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BIRBUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:35:21,117 [INFO] 🔍 Scanning BLASTUSDT
+🔎 Fetching candles | Symbol: BLASTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BLASTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:35:35,726 [INFO] 🔍 Scanning BLESSUSDT
+🔎 Fetching candles | Symbol: BLESSUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BLESSUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+❌ Long/short ratio fetch failed for BLESSUSDT: HTTPSConnectionPool(host='api.bitget.com', port=443): Max retries exceeded with url: /api/v2/mix/market/account-ratio?symbol=BLESSUSDT&productType=USDT-FUTURES (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+2026-03-10 08:36:03,793 [INFO] 🔍 Scanning BLURUSDT
+🔎 Fetching candles | Symbol: BLURUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BLURUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:36:24,998 [INFO] 🔍 Scanning BMTUSDT
+🔎 Fetching candles | Symbol: BMTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BMTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:36:43,879 [INFO] 🔍 Scanning BNBUSDT
+🔎 Fetching candles | Symbol: BNBUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BNBUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:37:06,064 [INFO] 🔍 Scanning BNTUSDT
+🔎 Fetching candles | Symbol: BNTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BNTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:37:24,934 [INFO] 🔍 Scanning BOBUSDT
+🔎 Fetching candles | Symbol: BOBUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BOBUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:37:40,925 [INFO] 🔍 Scanning BOMEUSDT
+🔎 Fetching candles | Symbol: BOMEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BOMEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:37:55,496 [INFO] 🔍 Scanning BRETTUSDT
+🔎 Fetching candles | Symbol: BRETTUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BRETTUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:38:11,295 [INFO] 🔍 Scanning BROCCOLIUSDT
+🔎 Fetching candles | Symbol: BROCCOLIUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BROCCOLIUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:38:25,687 [INFO] 🔍 Scanning BRUSDT
+🔎 Fetching candles | Symbol: BRUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BRUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:38:42,629 [INFO] 🔍 Scanning BSVUSDT
+🔎 Fetching candles | Symbol: BSVUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BSVUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:39:03,743 [INFO] 🔍 Scanning BTCUSDT
+🔎 Fetching candles | Symbol: BTCUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BTCUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:39:25,762 [INFO] 🔍 Scanning BUSDT
+🔎 Fetching candles | Symbol: BUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: BUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:39:42,515 [INFO] 🔍 Scanning C98USDT
+🔎 Fetching candles | Symbol: C98USDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: C98USDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:39:56,893 [INFO] 🔍 Scanning CAKEUSDT
+🔎 Fetching candles | Symbol: CAKEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: CAKEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:40:12,336 [INFO] 🔍 Scanning WALUSDT
+🔎 Fetching candles | Symbol: WALUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: WALUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:40:29,868 [INFO] 🔍 Scanning SYSUSDT
+🔎 Fetching candles | Symbol: SYSUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: SYSUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:40:43,705 [INFO] 🔍 Scanning WAXPUSDT
+🔎 Fetching candles | Symbol: WAXPUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: WAXPUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:40:57,204 [INFO] 🔍 Scanning TAGUSDT
+🔎 Fetching candles | Symbol: TAGUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TAGUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:41:21,030 [INFO] 📨 Telegram alert sent
+2026-03-10 08:41:24,056 [INFO] 📨 Telegram alert sent
+2026-03-10 08:41:24,061 [INFO] ✅ SIGNAL: TAGUSDT
+2026-03-10 08:41:24,116 [INFO] 🔍 Scanning WIFUSDT
+🔎 Fetching candles | Symbol: WIFUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: WIFUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:41:40,261 [INFO] 🔍 Scanning TAOUSDT
+🔎 Fetching candles | Symbol: TAOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TAOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:41:54,144 [INFO] 🔍 Scanning THETAUSDT
+🔎 Fetching candles | Symbol: THETAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: THETAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:42:08,524 [INFO] 🔍 Scanning WLFIUSDT
+🔎 Fetching candles | Symbol: WLFIUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: WLFIUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:42:32,319 [INFO] 🔍 Scanning THEUSDT
+🔎 Fetching candles | Symbol: THEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: THEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:42:56,649 [INFO] 🔍 Scanning WOOUSDT
+🔎 Fetching candles | Symbol: WOOUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: WOOUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:43:18,590 [INFO] 🔍 Scanning TIAUSDT
+🔎 Fetching candles | Symbol: TIAUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TIAUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:43:39,096 [INFO] 🔍 Scanning WUSDT
+🔎 Fetching candles | Symbol: WUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: WUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:43:59,961 [INFO] 🔍 Scanning TLMUSDT
+🔎 Fetching candles | Symbol: TLMUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TLMUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:44:22,611 [INFO] 🔍 Scanning TNSRUSDT
+🔎 Fetching candles | Symbol: TNSRUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TNSRUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:44:42,907 [INFO] 🔍 Scanning XAIUSDT
+🔎 Fetching candles | Symbol: XAIUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: XAIUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:44:56,347 [INFO] 🔍 Scanning TONUSDT
+🔎 Fetching candles | Symbol: TONUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TONUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:45:11,600 [INFO] 🔍 Scanning XANUSDT
+🔎 Fetching candles | Symbol: XANUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: XANUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:45:24,165 [INFO] 🔍 Scanning TOSHIUSDT
+🔎 Fetching candles | Symbol: TOSHIUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TOSHIUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:45:37,127 [INFO] 🔍 Scanning TOWNSUSDT
+🔎 Fetching candles | Symbol: TOWNSUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TOWNSUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:45:49,105 [INFO] 🔍 Scanning TRBUSDT
+🔎 Fetching candles | Symbol: TRBUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TRBUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00
+2026-03-10 08:46:02,212 [INFO] 🔍 Scanning TREEUSDT
+🔎 Fetching candles | Symbol: TREEUSDT | Interval: 1h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-03-06 05:00 → 2026-03-10 08:00
+🔎 Fetching candles | Symbol: TREEUSDT | Interval: 4h
+   📡 API: https://api.bitget.com/api/v2/mix/market/candles
+   ✓ HTTP 200
+✅ Got 100 candles | Range: 2026-02-21 20:00 → 2026-03-10 08:00

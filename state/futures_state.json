@@ -1,0 +1,1532 @@
+{
+  "meta": {
+    "cycle": 1574,
+    "paused": true,
+    "pause_reason": "drawdown 81.98% >= 5.00%",
+    "risk_flattened": true,
+    "dry_run_mode": false
+  },
+  "risk": {
+    "equity_peak_usdt": 143.24997621,
+    "last_equity_usdt": 25.81898523
+  },
+  "hedges": {
+    "NOM/USDT:USDT": {
+      "created_at": "2026-03-30T22:14:45+00:00",
+      "symbol": "NOM/USDT:USDT",
+      "direction": "long_futures_short_spot",
+      "qty": 5121.499557419728
+    },
+    "ONT/USDT:USDT": {
+      "created_at": "2026-03-31T01:30:05+00:00",
+      "symbol": "ONT/USDT:USDT",
+      "direction": "long_futures_short_spot",
+      "qty": 201.95132967112397
+    }
+  },
+  "position_protection": {
+    "LYN/USDT:USDT": {
+      "symbol": "LYN/USDT:USDT",
+      "side": "long",
+      "entry": 0.05263,
+      "sl": 0.05184055,
+      "tp": 0.05447205,
+      "updated_at": "2026-03-29T05:15:00+00:00"
+    },
+    "SIREN/USDT:USDT": {
+      "symbol": "SIREN/USDT:USDT",
+      "side": "short",
+      "entry": 0.146851818181,
+      "sl": 0.14905459545371497,
+      "tp": 0.14171200454466498,
+      "updated_at": "2026-04-03T21:52:51+00:00"
+    },
+    "JCT/USDT:USDT": {
+      "symbol": "JCT/USDT:USDT",
+      "side": "long",
+      "entry": 0.002295076973,
+      "sl": 0.002260650818405,
+      "tp": 0.002375404667055,
+      "updated_at": "2026-03-29T00:56:27+00:00"
+    },
+    "NEAR/USDT:USDT": {
+      "symbol": "NEAR/USDT:USDT",
+      "side": "short",
+      "entry": 1.16935,
+      "sl": 1.1868902499999998,
+      "tp": 1.12842275,
+      "updated_at": "2026-03-29T04:09:54+00:00"
+    },
+    "BTC/USDT:USDT": {
+      "symbol": "BTC/USDT:USDT",
+      "side": "long",
+      "entry": 67036.54285714286,
+      "sl": 66030.99471428571,
+      "tp": 69382.82185714286,
+      "updated_at": "2026-04-04T11:24:35+00:00"
+    },
+    "ETH/USDT:USDT": {
+      "symbol": "ETH/USDT:USDT",
+      "side": "long",
+      "entry": 2032.310000000001,
+      "sl": 2001.825350000001,
+      "tp": 2103.440850000001,
+      "updated_at": "2026-03-30T03:36:52+00:00"
+    },
+    "SOL/USDT:USDT": {
+      "symbol": "SOL/USDT:USDT",
+      "side": "short",
+      "entry": 81.656,
+      "sl": 82.88083999999999,
+      "tp": 78.79804,
+      "updated_at": "2026-03-29T17:16:07+00:00"
+    },
+    "ZEC/USDT:USDT": {
+      "symbol": "ZEC/USDT:USDT",
+      "side": "long",
+      "entry": 234.73,
+      "sl": 231.20905,
+      "tp": 242.94554999999997,
+      "updated_at": "2026-03-31T10:10:59+00:00"
+    },
+    "XAU/USDT:USDT": {
+      "symbol": "XAU/USDT:USDT",
+      "side": "long",
+      "entry": 4672.473333333334,
+      "sl": 4602.3862333333345,
+      "tp": 4836.009900000001,
+      "updated_at": "2026-04-03T11:02:02+00:00"
+    },
+    "ONT/USDT:USDT": {
+      "symbol": "ONT/USDT:USDT",
+      "side": "long",
+      "entry": 0.07831,
+      "sl": 0.07713535,
+      "tp": 0.08105085,
+      "updated_at": "2026-03-31T10:11:00+00:00"
+    },
+    "XRP/USDT:USDT": {
+      "symbol": "XRP/USDT:USDT",
+      "side": "long",
+      "entry": 1.3312,
+      "sl": 1.311232,
+      "tp": 1.377792,
+      "updated_at": "2026-03-30T21:29:44+00:00"
+    },
+    "NOM/USDT:USDT": {
+      "symbol": "NOM/USDT:USDT",
+      "side": "long",
+      "entry": 0.006349773992,
+      "sl": 0.00625452738212,
+      "tp": 0.00657201608172,
+      "updated_at": "2026-04-03T11:12:01+00:00"
+    },
+    "TON/USDT:USDT": {
+      "symbol": "TON/USDT:USDT",
+      "side": "short",
+      "entry": 1.229753216374,
+      "sl": 1.2481995146196099,
+      "tp": 1.1867118538009098,
+      "updated_at": "2026-03-31T04:40:29+00:00"
+    },
+    "AVAX/USDT:USDT": {
+      "symbol": "AVAX/USDT:USDT",
+      "side": "short",
+      "entry": 9.006,
+      "sl": 9.14109,
+      "tp": 8.69079,
+      "updated_at": "2026-03-31T04:40:29+00:00"
+    },
+    "SKY/USDT:USDT": {
+      "symbol": "SKY/USDT:USDT",
+      "side": "short",
+      "entry": 0.073163726415,
+      "sl": 0.074261182311225,
+      "tp": 0.07060299599047501,
+      "updated_at": "2026-03-31T10:26:01+00:00"
+    },
+    "XPT/USDT:USDT": {
+      "symbol": "XPT/USDT:USDT",
+      "side": "long",
+      "entry": 1993.59,
+      "sl": 1963.68615,
+      "tp": 2063.3656499999997,
+      "updated_at": "2026-04-03T11:02:01+00:00"
+    },
+    "MRVL/USDT:USDT": {
+      "symbol": "MRVL/USDT:USDT",
+      "side": "short",
+      "entry": 106.49,
+      "sl": 108.08734999999999,
+      "tp": 102.76284999999999,
+      "updated_at": "2026-04-03T10:57:01+00:00"
+    },
+    "BR/USDT:USDT": {
+      "symbol": "BR/USDT:USDT",
+      "side": "short",
+      "entry": 0.166219059184,
+      "sl": 0.16871234507176,
+      "tp": 0.16040139211256,
+      "updated_at": "2026-04-03T16:32:13+00:00"
+    },
+    "AIO/USDT:USDT": {
+      "symbol": "AIO/USDT:USDT",
+      "side": "short",
+      "entry": 0.08159,
+      "sl": 0.08281385,
+      "tp": 0.07873435,
+      "updated_at": "2026-04-03T15:42:09+00:00"
+    },
+    "STO/USDT:USDT": {
+      "symbol": "STO/USDT:USDT",
+      "side": "short",
+      "entry": 0.124594108564,
+      "sl": 0.12646302019245997,
+      "tp": 0.12023331476426,
+      "updated_at": "2026-04-03T15:57:11+00:00"
+    },
+    "PIPPIN/USDT:USDT": {
+      "symbol": "PIPPIN/USDT:USDT",
+      "side": "long",
+      "entry": 0.03,
+      "sl": 0.02955,
+      "tp": 0.031049999999999998,
+      "updated_at": "2026-04-04T03:38:23+00:00"
+    },
+    "JUP/USDT:USDT": {
+      "symbol": "JUP/USDT:USDT",
+      "side": "short",
+      "entry": 0.1625,
+      "sl": 0.1649375,
+      "tp": 0.1568125,
+      "updated_at": "2026-04-04T03:38:24+00:00"
+    },
+    "CRV/USDT:USDT": {
+      "symbol": "CRV/USDT:USDT",
+      "side": "short",
+      "entry": 0.2111,
+      "sl": 0.2142665,
+      "tp": 0.2037115,
+      "updated_at": "2026-04-03T22:42:59+00:00"
+    },
+    "ACH/USDT:USDT": {
+      "symbol": "ACH/USDT:USDT",
+      "side": "short",
+      "entry": 0.006168,
+      "sl": 0.0062605199999999995,
+      "tp": 0.00595212,
+      "updated_at": "2026-04-04T03:38:23+00:00"
+    },
+    "ATA/USDT:USDT": {
+      "symbol": "ATA/USDT:USDT",
+      "side": "long",
+      "entry": 0.009040818142,
+      "sl": 0.00890520586987,
+      "tp": 0.009357246776969998,
+      "updated_at": "2026-04-04T03:38:24+00:00"
+    }
+  },
+  "activities": [
+    {
+      "ts": "2026-03-26T19:22:54+00:00",
+      "market": "futures",
+      "action": "RISK_PAUSE",
+      "symbol": "ALL",
+      "message": "drawdown 7.74% >= 5.00%"
+    },
+    {
+      "ts": "2026-03-26T19:45:48+00:00",
+      "market": "futures",
+      "action": "RISK_PAUSE",
+      "symbol": "ALL",
+      "message": "drawdown 6.48% >= 5.00%"
+    },
+    {
+      "ts": "2026-03-28T17:36:09+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "LYN/USDT:USDT",
+      "message": "side=long sl=0.049052 tp=0.051542"
+    },
+    {
+      "ts": "2026-03-28T17:51:09+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=1.663052 tp=1.581128"
+    },
+    {
+      "ts": "2026-03-28T17:56:10+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.619722 tp=1.701941"
+    },
+    {
+      "ts": "2026-03-29T00:26:24+00:00",
+      "market": "futures",
+      "action": "RISK_PAUSE",
+      "symbol": "ALL",
+      "message": "drawdown 85.03% >= 5.00%"
+    },
+    {
+      "ts": "2026-03-29T00:51:26+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "JCT/USDT:USDT",
+      "message": "side=long sl=0.002269 tp=0.002385"
+    },
+    {
+      "ts": "2026-03-29T00:51:27+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.291035 tp=1.356570"
+    },
+    {
+      "ts": "2026-03-29T00:56:27+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "JCT/USDT:USDT",
+      "message": "side=long sl=0.002261 tp=0.002375"
+    },
+    {
+      "ts": "2026-03-29T00:56:27+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.341462 tp=1.409556"
+    },
+    {
+      "ts": "2026-03-29T01:06:27+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.413117 tp=1.484848"
+    },
+    {
+      "ts": "2026-03-29T01:11:28+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.465226 tp=1.539603"
+    },
+    {
+      "ts": "2026-03-29T01:16:29+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.514349 tp=1.591219"
+    },
+    {
+      "ts": "2026-03-29T01:21:30+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.500464 tp=1.576630"
+    },
+    {
+      "ts": "2026-03-29T02:49:49+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.642980 tp=1.726380"
+    },
+    {
+      "ts": "2026-03-29T02:54:50+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.635937 tp=1.718980"
+    },
+    {
+      "ts": "2026-03-29T02:59:51+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.627245 tp=1.709846"
+    },
+    {
+      "ts": "2026-03-29T04:09:54+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NEAR/USDT:USDT",
+      "message": "side=short sl=1.186890 tp=1.128423"
+    },
+    {
+      "ts": "2026-03-29T04:29:53+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=short sl=67779.162500 tp=64440.287500"
+    },
+    {
+      "ts": "2026-03-29T05:15:00+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "LYN/USDT:USDT",
+      "message": "side=long sl=0.051841 tp=0.054472"
+    },
+    {
+      "ts": "2026-03-29T05:20:01+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.557406 tp=1.636463"
+    },
+    {
+      "ts": "2026-03-29T05:35:01+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ETH/USDT:USDT",
+      "message": "side=long sl=1970.423550 tp=2070.445050"
+    },
+    {
+      "ts": "2026-03-29T07:25:17+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=1.625441 tp=1.545370"
+    },
+    {
+      "ts": "2026-03-29T07:35:18+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.576000 tp=1.656000"
+    },
+    {
+      "ts": "2026-03-29T07:40:19+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=1.622843 tp=1.542900"
+    },
+    {
+      "ts": "2026-03-29T12:05:27+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.686330 tp=1.771930"
+    },
+    {
+      "ts": "2026-03-29T12:10:27+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.691481 tp=1.777343"
+    },
+    {
+      "ts": "2026-03-29T12:20:28+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.693944 tp=1.779931"
+    },
+    {
+      "ts": "2026-03-29T12:25:29+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.697101 tp=1.783248"
+    },
+    {
+      "ts": "2026-03-29T12:35:30+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.693698 tp=1.779672"
+    },
+    {
+      "ts": "2026-03-29T12:40:30+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.689712 tp=1.775485"
+    },
+    {
+      "ts": "2026-03-29T12:50:31+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.713086 tp=1.800045"
+    },
+    {
+      "ts": "2026-03-29T12:55:31+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.711093 tp=1.797950"
+    },
+    {
+      "ts": "2026-03-29T13:00:32+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.701637 tp=1.788014"
+    },
+    {
+      "ts": "2026-03-29T13:05:33+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.702718 tp=1.789151"
+    },
+    {
+      "ts": "2026-03-29T13:15:34+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=1.740708 tp=1.654959"
+    },
+    {
+      "ts": "2026-03-29T13:20:35+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.692752 tp=1.778679"
+    },
+    {
+      "ts": "2026-03-29T13:25:35+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=65620.109000 tp=68951.079000"
+    },
+    {
+      "ts": "2026-03-29T15:20:54+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ETH/USDT:USDT",
+      "message": "side=long sl=1965.370500 tp=2065.135500"
+    },
+    {
+      "ts": "2026-03-29T15:25:57+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.667779 tp=1.752438"
+    },
+    {
+      "ts": "2026-03-29T16:56:05+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.678360 tp=1.763556"
+    },
+    {
+      "ts": "2026-03-29T17:01:04+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SOL/USDT:USDT",
+      "message": "side=short sl=82.880840 tp=78.798040"
+    },
+    {
+      "ts": "2026-03-29T17:21:09+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ZEC/USDT:USDT",
+      "message": "side=short sl=219.002200 tp=208.213914"
+    },
+    {
+      "ts": "2026-03-29T17:46:09+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=short sl=67359.211832 tp=64041.024057"
+    },
+    {
+      "ts": "2026-03-29T17:51:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ZEC/USDT:USDT",
+      "message": "side=short sl=219.320489 tp=208.516524"
+    },
+    {
+      "ts": "2026-03-29T17:56:13+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.702661 tp=1.789091"
+    },
+    {
+      "ts": "2026-03-29T18:01:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ZEC/USDT:USDT",
+      "message": "side=long sl=213.764700 tp=224.615700"
+    },
+    {
+      "ts": "2026-03-29T18:46:17+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=1.745039 tp=1.659076"
+    },
+    {
+      "ts": "2026-03-29T18:51:18+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.691211 tp=1.777059"
+    },
+    {
+      "ts": "2026-03-29T19:51:25+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.694614 tp=1.780635"
+    },
+    {
+      "ts": "2026-03-29T19:56:26+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.694018 tp=1.780009"
+    },
+    {
+      "ts": "2026-03-29T20:01:26+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.695918 tp=1.782005"
+    },
+    {
+      "ts": "2026-03-29T21:06:32+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.781786 tp=1.872232"
+    },
+    {
+      "ts": "2026-03-29T21:11:33+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.778928 tp=1.869229"
+    },
+    {
+      "ts": "2026-03-29T21:16:33+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.779559 tp=1.869892"
+    },
+    {
+      "ts": "2026-03-29T21:21:34+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.771050 tp=1.860951"
+    },
+    {
+      "ts": "2026-03-29T21:56:36+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "XAU/USDT:USDT",
+      "message": "side=long sl=4451.599150 tp=4677.568650"
+    },
+    {
+      "ts": "2026-03-29T22:36:40+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "XAU/USDT:USDT",
+      "message": "side=short sl=4573.579850 tp=4348.280350"
+    },
+    {
+      "ts": "2026-03-29T22:46:41+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "XAU/USDT:USDT",
+      "message": "side=long sl=4451.599150 tp=4677.568650"
+    },
+    {
+      "ts": "2026-03-30T03:06:48+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=65977.270000 tp=69326.370000"
+    },
+    {
+      "ts": "2026-03-30T03:16:50+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=65981.238971 tp=69330.540441"
+    },
+    {
+      "ts": "2026-03-30T03:21:50+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ETH/USDT:USDT",
+      "message": "side=long sl=2001.825350 tp=2103.440850"
+    },
+    {
+      "ts": "2026-03-30T03:56:53+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=66185.105000 tp=69544.755000"
+    },
+    {
+      "ts": "2026-03-30T05:07:00+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=1.773956 tp=1.686569"
+    },
+    {
+      "ts": "2026-03-30T05:12:00+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.726674 tp=1.814323"
+    },
+    {
+      "ts": "2026-03-30T05:27:02+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.730786 tp=1.818643"
+    },
+    {
+      "ts": "2026-03-30T05:37:03+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=1.795171 tp=1.886296"
+    },
+    {
+      "ts": "2026-03-30T05:52:03+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ONT/USDT:USDT",
+      "message": "side=long sl=0.068684 tp=0.072171"
+    },
+    {
+      "ts": "2026-03-30T05:57:04+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ONT/USDT:USDT",
+      "message": "side=long sl=0.069108 tp=0.072616"
+    },
+    {
+      "ts": "2026-03-30T08:57:14+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ZEC/USDT:USDT",
+      "message": "side=long sl=226.776550 tp=238.288050"
+    },
+    {
+      "ts": "2026-03-30T09:37:18+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ZEC/USDT:USDT",
+      "message": "side=short sl=229.187000 tp=217.897000"
+    },
+    {
+      "ts": "2026-03-30T12:32:28+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=0.121352 tp=0.127512"
+    },
+    {
+      "ts": "2026-03-30T12:37:29+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=0.120334 tp=0.126442"
+    },
+    {
+      "ts": "2026-03-30T15:42:56+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=short sl=0.116217 tp=0.110493"
+    },
+    {
+      "ts": "2026-03-30T16:33:01+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=0.113571 tp=0.119335"
+    },
+    {
+      "ts": "2026-03-30T20:14:40+00:00",
+      "market": "futures",
+      "action": "RISK_PAUSE",
+      "symbol": "ALL",
+      "message": "drawdown 37.63% >= 5.00%"
+    },
+    {
+      "ts": "2026-03-30T21:29:44+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "XRP/USDT:USDT",
+      "message": "side=long sl=1.311232 tp=1.377792"
+    },
+    {
+      "ts": "2026-03-30T22:14:45+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NOM/USDT:USDT",
+      "message": "side=long sl=0.003383 tp=0.003555"
+    },
+    {
+      "ts": "2026-03-30T22:14:45+00:00",
+      "market": "futures",
+      "action": "HEDGE_OPEN",
+      "symbol": "NOM/USDT:USDT",
+      "message": "long_futures_short_spot qty=5121.499557 funding=-0.00057"
+    },
+    {
+      "ts": "2026-03-30T22:19:45+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NOM/USDT:USDT",
+      "message": "side=long sl=0.003387 tp=0.003559"
+    },
+    {
+      "ts": "2026-03-31T01:30:05+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ONT/USDT:USDT",
+      "message": "side=long sl=0.081753 tp=0.085902"
+    },
+    {
+      "ts": "2026-03-31T01:30:05+00:00",
+      "market": "futures",
+      "action": "HEDGE_OPEN",
+      "symbol": "ONT/USDT:USDT",
+      "message": "long_futures_short_spot qty=201.951330 funding=-0.00097"
+    },
+    {
+      "ts": "2026-03-31T01:30:06+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NOM/USDT:USDT",
+      "message": "side=long sl=0.003193 tp=0.003355"
+    },
+    {
+      "ts": "2026-03-31T01:35:05+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NOM/USDT:USDT",
+      "message": "side=long sl=0.003223 tp=0.003387"
+    },
+    {
+      "ts": "2026-03-31T01:40:06+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ONT/USDT:USDT",
+      "message": "side=short sl=0.081659 tp=0.077637"
+    },
+    {
+      "ts": "2026-03-31T01:50:08+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "TON/USDT:USDT",
+      "message": "side=long sl=1.219167 tp=1.281054"
+    },
+    {
+      "ts": "2026-03-31T02:30:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "AVAX/USDT:USDT",
+      "message": "side=long sl=8.910929 tp=9.363261"
+    },
+    {
+      "ts": "2026-03-31T02:30:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "TON/USDT:USDT",
+      "message": "side=long sl=1.219085 tp=1.280968"
+    },
+    {
+      "ts": "2026-03-31T03:15:15+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "AVAX/USDT:USDT",
+      "message": "side=short sl=9.141090 tp=8.690790"
+    },
+    {
+      "ts": "2026-03-31T03:15:16+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "TON/USDT:USDT",
+      "message": "side=short sl=1.248200 tp=1.186712"
+    },
+    {
+      "ts": "2026-03-31T06:25:35+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SKY/USDT:USDT",
+      "message": "side=short sl=0.074261 tp=0.070603"
+    },
+    {
+      "ts": "2026-03-31T06:25:36+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ONT/USDT:USDT",
+      "message": "side=long sl=0.077135 tp=0.081051"
+    },
+    {
+      "ts": "2026-03-31T08:40:51+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ZEC/USDT:USDT",
+      "message": "side=long sl=231.209050 tp=242.945550"
+    },
+    {
+      "ts": "2026-04-03T06:51:39+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "XAU/USDT:USDT",
+      "message": "side=long sl=4603.318700 tp=4836.989700"
+    },
+    {
+      "ts": "2026-04-03T09:56:56+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "XPT/USDT:USDT",
+      "message": "side=long sl=1963.686150 tp=2063.365650"
+    },
+    {
+      "ts": "2026-04-03T09:56:57+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "MRVL/USDT:USDT",
+      "message": "side=short sl=108.087350 tp=102.762850"
+    },
+    {
+      "ts": "2026-04-03T10:01:57+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "XAU/USDT:USDT",
+      "message": "side=long sl=4602.386233 tp=4836.009900"
+    },
+    {
+      "ts": "2026-04-03T10:52:00+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NOM/USDT:USDT",
+      "message": "side=long sl=0.006530 tp=0.006862"
+    },
+    {
+      "ts": "2026-04-03T10:57:01+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NOM/USDT:USDT",
+      "message": "side=long sl=0.006429 tp=0.006755"
+    },
+    {
+      "ts": "2026-04-03T11:02:01+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NOM/USDT:USDT",
+      "message": "side=long sl=0.006399 tp=0.006724"
+    },
+    {
+      "ts": "2026-04-03T11:12:01+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "NOM/USDT:USDT",
+      "message": "side=long sl=0.006255 tp=0.006572"
+    },
+    {
+      "ts": "2026-04-03T15:32:07+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=long sl=0.165756 tp=0.174170"
+    },
+    {
+      "ts": "2026-04-03T15:32:07+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "AIO/USDT:USDT",
+      "message": "side=short sl=0.082905 tp=0.078821"
+    },
+    {
+      "ts": "2026-04-03T15:37:07+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "AIO/USDT:USDT",
+      "message": "side=long sl=0.080475 tp=0.084560"
+    },
+    {
+      "ts": "2026-04-03T15:37:08+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=long sl=0.164885 tp=0.173255"
+    },
+    {
+      "ts": "2026-04-03T15:42:08+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=long sl=0.166380 tp=0.174826"
+    },
+    {
+      "ts": "2026-04-03T15:42:09+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "AIO/USDT:USDT",
+      "message": "side=short sl=0.082814 tp=0.078734"
+    },
+    {
+      "ts": "2026-04-03T15:52:10+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "STO/USDT:USDT",
+      "message": "side=short sl=0.125822 tp=0.119624"
+    },
+    {
+      "ts": "2026-04-03T15:57:11+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "STO/USDT:USDT",
+      "message": "side=short sl=0.126463 tp=0.120233"
+    },
+    {
+      "ts": "2026-04-03T16:02:11+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=long sl=0.163737 tp=0.172048"
+    },
+    {
+      "ts": "2026-04-03T16:12:11+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=short sl=0.172016 tp=0.163542"
+    },
+    {
+      "ts": "2026-04-03T16:12:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.170101 tp=0.178735"
+    },
+    {
+      "ts": "2026-04-03T16:17:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=short sl=0.166189 tp=0.158003"
+    },
+    {
+      "ts": "2026-04-03T16:17:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.170952 tp=0.179629"
+    },
+    {
+      "ts": "2026-04-03T16:22:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=short sl=0.166957 tp=0.158732"
+    },
+    {
+      "ts": "2026-04-03T16:22:13+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=0.173474 tp=0.164928"
+    },
+    {
+      "ts": "2026-04-03T16:27:13+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=short sl=0.166638 tp=0.158429"
+    },
+    {
+      "ts": "2026-04-03T16:27:13+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=0.172275 tp=0.163789"
+    },
+    {
+      "ts": "2026-04-03T16:32:13+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BR/USDT:USDT",
+      "message": "side=short sl=0.168712 tp=0.160401"
+    },
+    {
+      "ts": "2026-04-03T16:32:14+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=0.169020 tp=0.160694"
+    },
+    {
+      "ts": "2026-04-03T16:32:14+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=7.89%"
+    },
+    {
+      "ts": "2026-04-03T16:37:13+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.152527 tp=0.160270"
+    },
+    {
+      "ts": "2026-04-03T16:42:14+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "PIPPIN/USDT:USDT",
+      "message": "side=long sl=0.029014 tp=0.030487"
+    },
+    {
+      "ts": "2026-04-03T16:47:14+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "PIPPIN/USDT:USDT",
+      "message": "side=long sl=0.029639 tp=0.031143"
+    },
+    {
+      "ts": "2026-04-03T17:37:16+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.146501 tp=0.153937"
+    },
+    {
+      "ts": "2026-04-03T17:42:16+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.144865 tp=0.152219"
+    },
+    {
+      "ts": "2026-04-03T17:47:16+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.144000 tp=0.151310"
+    },
+    {
+      "ts": "2026-04-03T17:52:17+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.142661 tp=0.149903"
+    },
+    {
+      "ts": "2026-04-03T17:57:18+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.143120 tp=0.150385"
+    },
+    {
+      "ts": "2026-04-03T17:57:18+00:00",
+      "market": "futures",
+      "action": "CLOSE_SL",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "closed long qty=30.000000 pnl=-2.97%"
+    },
+    {
+      "ts": "2026-04-03T17:57:18+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=-2.97%"
+    },
+    {
+      "ts": "2026-04-03T18:07:19+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.137106 tp=0.144066"
+    },
+    {
+      "ts": "2026-04-03T18:12:19+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=4.44%"
+    },
+    {
+      "ts": "2026-04-03T18:17:20+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=4.63%"
+    },
+    {
+      "ts": "2026-04-03T18:22:20+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=3.83%"
+    },
+    {
+      "ts": "2026-04-03T18:27:21+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=3.60%"
+    },
+    {
+      "ts": "2026-04-03T18:32:22+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=4.26%"
+    },
+    {
+      "ts": "2026-04-03T18:52:24+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=4.25%"
+    },
+    {
+      "ts": "2026-04-03T19:07:26+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=3.71%"
+    },
+    {
+      "ts": "2026-04-03T19:12:27+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=4.52%"
+    },
+    {
+      "ts": "2026-04-03T19:17:28+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=6.20%"
+    },
+    {
+      "ts": "2026-04-03T19:22:29+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=7.07%"
+    },
+    {
+      "ts": "2026-04-03T19:27:30+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=8.96%"
+    },
+    {
+      "ts": "2026-04-03T19:32:32+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=8.98%"
+    },
+    {
+      "ts": "2026-04-03T19:37:31+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=11.29%"
+    },
+    {
+      "ts": "2026-04-03T19:42:31+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=8.96%"
+    },
+    {
+      "ts": "2026-04-03T19:47:31+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=9.25%"
+    },
+    {
+      "ts": "2026-04-03T19:52:32+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=9.54%"
+    },
+    {
+      "ts": "2026-04-03T19:57:33+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=10.57%"
+    },
+    {
+      "ts": "2026-04-03T20:02:34+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=12.10%"
+    },
+    {
+      "ts": "2026-04-03T20:07:35+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=10.94%"
+    },
+    {
+      "ts": "2026-04-03T20:12:36+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=10.17%"
+    },
+    {
+      "ts": "2026-04-03T20:17:37+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=9.58%"
+    },
+    {
+      "ts": "2026-04-03T20:22:37+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=8.76%"
+    },
+    {
+      "ts": "2026-04-03T20:27:38+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=7.89%"
+    },
+    {
+      "ts": "2026-04-03T20:32:39+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=8.63%"
+    },
+    {
+      "ts": "2026-04-03T20:37:40+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=7.45%"
+    },
+    {
+      "ts": "2026-04-03T20:42:41+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=6.83%"
+    },
+    {
+      "ts": "2026-04-03T20:47:42+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=6.36%"
+    },
+    {
+      "ts": "2026-04-03T20:52:42+00:00",
+      "market": "futures",
+      "action": "EXIT_TP",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "pnl=5.79%"
+    },
+    {
+      "ts": "2026-04-03T20:57:43+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=long sl=0.145290 tp=0.152665"
+    },
+    {
+      "ts": "2026-04-03T20:57:43+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "JUP/USDT:USDT",
+      "message": "side=short sl=0.165546 tp=0.157391"
+    },
+    {
+      "ts": "2026-04-03T21:02:44+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "SIREN/USDT:USDT",
+      "message": "side=short sl=0.149055 tp=0.141712"
+    },
+    {
+      "ts": "2026-04-03T21:02:44+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "JUP/USDT:USDT",
+      "message": "side=long sl=0.160710 tp=0.168868"
+    },
+    {
+      "ts": "2026-04-03T21:57:52+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "CRV/USDT:USDT",
+      "message": "side=short sl=0.214266 tp=0.203711"
+    },
+    {
+      "ts": "2026-04-03T21:57:52+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "JUP/USDT:USDT",
+      "message": "side=long sl=0.160653 tp=0.168807"
+    },
+    {
+      "ts": "2026-04-04T00:38:10+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ACH/USDT:USDT",
+      "message": "side=short sl=0.006261 tp=0.005952"
+    },
+    {
+      "ts": "2026-04-04T00:43:11+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "ATA/USDT:USDT",
+      "message": "side=long sl=0.008905 tp=0.009357"
+    },
+    {
+      "ts": "2026-04-04T00:43:12+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "JUP/USDT:USDT",
+      "message": "side=short sl=0.164937 tp=0.156812"
+    },
+    {
+      "ts": "2026-04-04T02:03:14+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.59%"
+    },
+    {
+      "ts": "2026-04-04T02:08:15+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.80%"
+    },
+    {
+      "ts": "2026-04-04T02:13:16+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.70%"
+    },
+    {
+      "ts": "2026-04-04T02:18:16+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.65%"
+    },
+    {
+      "ts": "2026-04-04T02:23:17+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.86%"
+    },
+    {
+      "ts": "2026-04-04T02:28:17+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.75%"
+    },
+    {
+      "ts": "2026-04-04T02:33:18+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.57%"
+    },
+    {
+      "ts": "2026-04-04T02:38:21+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.57%"
+    },
+    {
+      "ts": "2026-04-04T03:03:20+00:00",
+      "market": "futures",
+      "action": "EXIT_SL",
+      "symbol": "ACH/USDT:USDT",
+      "message": "pnl=-1.51%"
+    },
+    {
+      "ts": "2026-04-04T03:38:23+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "PIPPIN/USDT:USDT",
+      "message": "side=long sl=0.029550 tp=0.031050"
+    },
+    {
+      "ts": "2026-04-04T03:43:22+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=65802.925000 tp=69143.175000"
+    },
+    {
+      "ts": "2026-04-04T07:49:03+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=65878.425250 tp=69222.507750"
+    },
+    {
+      "ts": "2026-04-04T11:24:35+00:00",
+      "market": "futures",
+      "action": "PROTECTION_SET",
+      "symbol": "BTC/USDT:USDT",
+      "message": "side=long sl=66030.994714 tp=69382.821857"
+    }
+  ],
+  "position_pnl_prev": {
+    "LYN/USDT:USDT": 0.0007600228006839896,
+    "SIREN/USDT:USDT": 0.029293598365243506,
+    "JCT/USDT:USDT": -0.00046925354254776164,
+    "NEAR/USDT:USDT": -0.0006413819643391872,
+    "BTC/USDT:USDT": 0.0008645604380381732,
+    "ETH/USDT:USDT": 0.0015942449724691953,
+    "SOL/USDT:USDT": 0.002339081022827502,
+    "ZEC/USDT:USDT": 0.003961998892344425,
+    "ONT/USDT:USDT": -0.014940620610394641,
+    "XRP/USDT:USDT": 7.512019230768403e-05,
+    "NOM/USDT:USDT": 0.006335029884635294,
+    "TON/USDT:USDT": 0.00012459115533087665,
+    "AVAX/USDT:USDT": 0.006551188096824456,
+    "SKY/USDT:USDT": -0.01730739598769781,
+    "XPT/USDT:USDT": 0.0002056591375358433,
+    "MRVL/USDT:USDT": -0.0007512442482862081,
+    "XAU/USDT:USDT": 0.00028607261535991635,
+    "BR/USDT:USDT": 0.01810297326174293,
+    "AIO/USDT:USDT": 0.0,
+    "STO/USDT:USDT": 0.011269461936707506,
+    "PIPPIN/USDT:USDT": 0.00033333333333331977,
+    "JUP/USDT:USDT": 0.0018461538461538136,
+    "CRV/USDT:USDT": 0.005210800568451054,
+    "ACH/USDT:USDT": -0.012159533073930029,
+    "ATA/USDT:USDT": -0.0011965888296926153
+  }
+}

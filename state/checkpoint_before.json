@@ -1,0 +1,20 @@
+{
+  "cycle": 557,
+  "equity_usdt": 73.2739741031,
+  "cash_usdt": 2.9940330725000006,
+  "realized_profit_usdt": 0.0,
+  "harvested_profit_usdt": 0.0,
+  "fees_usdt": 0.0035970075000000003,
+  "prices": {
+    "BTC": 64765.46,
+    "ETH": 1863.06,
+    "SOL": 78.14,
+    "BNB": 601.08
+  },
+  "metrics": {
+    "strategy.signal.buy_rotation": 1.0,
+    "execution.status.SPOT_OK": 1.0,
+    "strategy.no_buy.cash_below_min_buy": 547.0,
+    "strategy.action.take_profit_sell": 46.0
+  }
+}

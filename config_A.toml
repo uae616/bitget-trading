@@ -1,0 +1,59 @@
+
+[bot]
+cycle_seconds = 1
+max_cycles = 500
+reconcile_every_cycles = 0
+log_level = "INFO"
+base_url = "https://api.binance.com"
+dry_run = true
+
+[portfolio]
+# coin symbols (base assets). Spot symbols are auto-mapped to COINUSDT.
+coins = ["BTC","ETH","SOL"]
+quote_asset = "USDT"
+max_trade_per_symbol_cooldown_sec = 300
+
+[profit_take]
+enabled = true
+profit_harvest_ratio = 0.20
+min_profit_target_usdt = 1.0
+max_sell_value_ratio_per_cycle = 0.02
+
+[dip_buy]
+enabled = true
+min_buy_usdt = 3.0
+max_buy_value_ratio_per_cycle = 0.05
+require_momentum_not_too_negative = true
+momentum_floor_z = -0.5
+
+[momentum]
+short_min = 30
+mid_min = 240
+long_min = 1440
+w_short = 0.5
+w_mid = 0.3
+w_long = 0.2
+
+[trend]
+entry_z = 0.55
+dominance_gap = 0.15
+
+[entry]
+reserve_ratio = 0.10
+reserve_floor_usdt = 1.0
+min_pos_floor_usdt = 5.1
+
+[risk]
+enabled = true
+daily_loss_limit_pct = 0.03
+
+[execution]
+enable_convert_buy_fallback = true
+
+[alerts]
+telegram_signals = true
+telegram_near_miss = true
+near_miss_cooldown_sec = 600
+near_signal_z_delta = 0.12
+near_signal_gap_delta = 0.08
+near_signal_cash_ratio = 0.90

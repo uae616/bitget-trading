@@ -1,0 +1,66 @@
+{
+  "before": {
+    "cycle": 506,
+    "equity_usdt": 73.39507715549999,
+    "cash_usdt": 2.9940330725000006,
+    "realized_profit_usdt": 0.0,
+    "harvested_profit_usdt": 0.0,
+    "fees_usdt": 0.0035970075000000003,
+    "prices": {
+      "BTC": 64940.8,
+      "ETH": 1865.49,
+      "SOL": 78.45,
+      "BNB": 600.53
+    },
+    "metrics": {
+      "strategy.signal.buy_rotation": 1.0,
+      "execution.status.SPOT_OK": 1.0,
+      "strategy.no_buy.cash_below_min_buy": 498.0,
+      "strategy.action.take_profit_sell": 46.0
+    }
+  },
+  "after": {
+    "cycle": 556,
+    "equity_usdt": 73.3971041172,
+    "cash_usdt": 2.9940330725000006,
+    "realized_profit_usdt": 0.0,
+    "harvested_profit_usdt": 0.0,
+    "fees_usdt": 0.0035970075000000003,
+    "prices": {
+      "BTC": 64938.81,
+      "ETH": 1866.0,
+      "SOL": 78.43,
+      "BNB": 600.6
+    },
+    "metrics": {
+      "strategy.signal.buy_rotation": 1.0,
+      "execution.status.SPOT_OK": 1.0,
+      "strategy.no_buy.cash_below_min_buy": 547.0,
+      "strategy.action.take_profit_sell": 46.0
+    }
+  },
+  "delta": {
+    "cycles": 50,
+    "equity_usdt": 0.002026961700011043,
+    "roi_pct": 0.002761713426251435,
+    "cash_usdt": 0.0,
+    "realized_profit_usdt": 0.0,
+    "harvested_profit_usdt": 0.0,
+    "fees_usdt": 0.0,
+    "net_after_fees_usdt": 0.002026961700011043,
+    "metrics": {
+      "strategy.no_buy.cash_below_min_buy": 49.0
+    }
+  },
+  "summary": {
+    "top_blocking_reasons": [
+      {
+        "reason": "cash_below_min_buy",
+        "count": 49.0
+      }
+    ],
+    "top_execution_outcomes": [],
+    "line": "Top blocks: cash_below_min_buy=49",
+    "outcomes_line": "Top outcomes: none"
+  }
+}

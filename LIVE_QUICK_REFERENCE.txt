@@ -1,0 +1,191 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   MT5 SCALPER - TRANSITION QUICK REFERENCE                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ STEP 1: SETUP MT5 CREDENTIALS                                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  1. Open MetaTrader5 terminal
+  2. File → Account Settings (F11)
+  3. Find these values:
+     • Login:     (your account number, e.g., 123456789)
+     • Server:    (broker server, e.g., FinPro-Demo)
+     • Password:  (your password)
+
+  4. Add to .env file:
+     MT5_LOGIN=123456789
+     MT5_PASSWORD=YourPassword123
+     MT5_SERVER=FinPro-Demo
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ STEP 2: VERIFY SETUP                                                         │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  .\scripts\transition_mt5.ps1 -Mode check
+
+  Expected output:
+    ✅ config.toml exists
+    ✅ .env exists
+    ✅ MT5 credentials in .env
+    ✅ Python venv active
+    ✅ All other checks pass
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ STEP 3: START WITH DEMO                                                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  TERMINAL 1 (Run Bot):
+  ────────────────────
+  python -m src.mt5_scalper.main
+
+  TERMINAL 2 (Monitor Dashboard):
+  ───────────────────────────────
+  python monitor_mt5_live.py
+
+  Watch for:
+    ✅ Signals being generated
+    ✅ Dashboard shows data
+    ✅ No errors in logs
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ STEP 4: SWITCH TO LIVE (After 1-2 hours of demo)                            │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  MICRO SIZE (0.01 lots = $1 per pip):
+  ────────────────────────────────────
+  .\scripts\transition_mt5.ps1 -Mode live-micro
+
+  SMALL SIZE (0.05 lots = $5 per pip):
+  ────────────────────────────────────
+  .\scripts\transition_mt5.ps1 -Mode live-small
+
+  Continue monitoring with:
+  python monitor_mt5_live.py
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ EMERGENCY COMMANDS                                                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  IMMEDIATE STOP:
+  ──────────────
+  • Press Ctrl+C in bot terminal
+  • This stops all trading
+
+  REVERT TO DRY RUN:
+  ─────────────────
+  .\scripts\transition_mt5.ps1 -Mode revert
+
+  CHECK LOGS:
+  ──────────
+  Get-Content logs/mt5_scalper.log -Tail 50
+
+  LIVE LOG MONITOR:
+  ────────────────
+  Get-Content logs/mt5_scalper.log -Wait -Tail 50
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ MONITORING DASHBOARD METRICS                                                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  KEY NUMBERS TO WATCH:
+  
+  Win Rate:          40-60% is good
+                     <30% means STOP
+                     
+  Total P&L:         Positive or near break-even
+                     -20% or worse means STOP
+                     
+  Closed Trades:     15-30 per hour (market dependent)
+                     0 means signals not executing
+                     
+  Signal Ratio:      50% BUY / 50% SELL
+                     All one direction = signal drift (STOP)
+                     
+  Open Positions:    Should match max_positions setting
+                     Should close within minutes (scalping)
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ RED FLAGS - STOP IMMEDIATELY                                                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  🚨 P&L is -20% or worse
+  🚨 Win rate drops below 30%
+  🚨 All signals are BUY or all SELL (signal drift)
+  🚨 "Connection refused" or "MT5 error" in logs
+  🚨 Positions not closing after 5+ minutes
+  🚨 Dashboard shows 0 trades when signals are being generated
+  🚨 Account balance drops rapidly
+
+  WHEN RED FLAG OCCURS:
+  1. Ctrl+C (stop bot)
+  2. .\scripts\transition_mt5.ps1 -Mode revert
+  3. Close positions manually in MT5
+  4. Investigate logs
+  5. DO NOT resume until root cause found
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ EXPECTED BEHAVIOR BY PHASE                                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  DEMO (Dry Run):
+  ───────────────
+  • Signals every 5 minutes
+  • Dashboard shows activity
+  • No real money at risk
+  • Run: 1-2 hours minimum
+
+  LIVE MICRO (0.01 lots):
+  ──────────────────────
+  • Real money but tiny risk ($1/pip)
+  • Trades should open/close quickly
+  • Monitor closely: 2-4 hours
+  • Check for slippage and real order fills
+
+  LIVE SMALL (0.05 lots):
+  ──────────────────────
+  • Real money with increased risk ($5/pip)
+  • Only after micro phase goes well
+  • Continue monitoring: 4-8 hours
+  • Increase position only if profitable
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ CONFIGURATION REFERENCE                                                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  File: config.toml
+
+  [mt5_scalper]
+  dry_run = true|false          (true=demo, false=live)
+  symbols = ["XAUUSD", ...]     (trading pairs)
+  timeframe = "M5"              (5-minute candles)
+  cycle_seconds = 60            (check every 60 seconds)
+  bars = 200                    (use 200 candles for strategy)
+  position_size = 0.01          (lot size: 0.01, 0.02, 0.05, etc)
+  max_positions = 2             (max 2-4 trades open at once)
+  stop_loss_pips = 20           (20 pips stop loss)
+  take_profit_pips = 40         (40 pips take profit)
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ SUPPORT FILES                                                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  LIVE_TRADING_QUICKSTART.md     ← Start here (full guide)
+  MT5_TRANSITION_GUIDE.md        ← Detailed transition steps
+  analyze_mt5_dryrun.py          ← Analyze dry run results
+  monitor_mt5_live.py            ← Live monitoring dashboard
+  scripts/transition_mt5.ps1     ← Automated transition tool
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Ready to go live? Follow these steps:
+
+1. Edit .env → Add MT5 credentials
+2. Run: .\scripts\transition_mt5.ps1 -Mode check
+3. Read: LIVE_TRADING_QUICKSTART.md
+4. Run: python -m src.mt5_scalper.main
+5. Monitor: python monitor_mt5_live.py
+6. Once confident: .\scripts\transition_mt5.ps1 -Mode live-micro
+
+═══════════════════════════════════════════════════════════════════════════════

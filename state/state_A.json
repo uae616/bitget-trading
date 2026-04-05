@@ -1,0 +1,32 @@
+{
+  "cash_usdt": 63.5791394158,
+  "positions": {
+    "SOL": {
+      "amount": 0.15897653055522099,
+      "avg_price": 83.03
+    },
+    "BTC": {
+      "amount": 0.00016650693160820716,
+      "avg_price": 67383.67
+    }
+  },
+  "pnl": {
+    "realized_profit_usdt": 0.0,
+    "harvested_profit_usdt": 0.0,
+    "fees_usdt": 0.0
+  },
+  "harvest": {
+    "pending_profit_target": {
+      "BTC": 0.0025735311349344724,
+      "SOL": 0.09506796527202552
+    }
+  },
+  "meta": {
+    "cycle": 500,
+    "last_trade_ts": {
+      "SOL": 1771559826.5860298,
+      "BTC": 1771559827.5998542
+    },
+    "locks": {}
+  }
+}
