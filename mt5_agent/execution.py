@@ -74,7 +74,6 @@ class ExecutionAdapter:
 
             return TradeResult(request.request_id, False, retcode, comment, int(order_id or 0))
 
-        return TradeResult(request.request_id, False, -1, "Retries exhausted")
 
 
 def _build_idempotency_key(request: TradeRequest) -> str:
