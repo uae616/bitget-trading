@@ -15,7 +15,7 @@ from .types import TradeRequest, TradeResult
 class ExecutionAdapter:
     def __init__(self, client: MT5Client, max_retries: int, audit_logger: AuditLogger, idempotency_store_path: str = ".idempotency_keys") -> None:
         self.client = client
-        self.max_retries = max_retries
+        self.max_retries = max(1, max_retries)
         self.audit_logger = audit_logger
         self._idempotency_store = Path(idempotency_store_path)
         self._idempotency_store.parent.mkdir(parents=True, exist_ok=True)

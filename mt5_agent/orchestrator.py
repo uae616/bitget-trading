@@ -38,7 +38,20 @@ class TradingAgent:
             return None
 
         request = _signal_to_request(signal, snapshot.ask if signal.side.lower() == "buy" else snapshot.bid, default_volume)
-        self.validator.validate(request)
+        try:
+            self.validator.validate(request)
+        except ValueError as exc:
+            failed = TradeResult(request_id=signal.request_id, accepted=False, code=-3, message=str(exc))
+            self.audit.write(
+                "agent.decision",
+                {
+                    "symbol": symbol,
+                    "signal": asdict(signal),
+                    "trade_result": asdict(failed),
+                },
+            )
+            return failed
+
         result = self.execution.execute(request)
 
         self.audit.write(

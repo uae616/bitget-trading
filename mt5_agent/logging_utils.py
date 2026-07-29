@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import logging
+import threading
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -22,6 +23,7 @@ class AuditLogger:
     def __init__(self, path: str) -> None:
         self._path = Path(path)
         self._path.parent.mkdir(parents=True, exist_ok=True)
+        self._lock = threading.Lock()
 
     def write(self, event: str, payload: dict[str, Any]) -> None:
         record = {
@@ -29,5 +31,6 @@ class AuditLogger:
             "event": event,
             "payload": payload,
         }
-        with self._path.open("a", encoding="utf-8") as fp:
-            fp.write(json.dumps(record, default=str) + "\n")
+        with self._lock:
+            with self._path.open("a", encoding="utf-8") as fp:
+                fp.write(json.dumps(record, default=str) + "\n")

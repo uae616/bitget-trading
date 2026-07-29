@@ -28,7 +28,7 @@ class TradeRequestValidator:
                 raise ValueError("Volume does not match symbol step")
 
         digits = int(getattr(info, "digits", 5))
-        if round(request.price, digits) != request.price:
+        if abs(round(request.price, digits) - request.price) > 1e-10:
             raise ValueError("Price precision does not match symbol digits")
 
         stops_level_points = int(getattr(info, "trade_stops_level", 0))

@@ -20,9 +20,12 @@ class MT5Client:
     def connected(self) -> bool:
         return self._connected
 
-    def connect(self) -> bool:
+    def _require_mt5(self) -> None:
         if mt5 is None:
             raise RuntimeError("MetaTrader5 package is not installed")
+
+    def connect(self) -> bool:
+        self._require_mt5()
 
         init_kwargs = {
             "path": self.config.path,
@@ -54,30 +57,39 @@ class MT5Client:
         return self.connect()
 
     def symbols_get(self) -> list[Any]:
+        self._require_mt5()
         return list(mt5.symbols_get() or [])
 
     def symbol_info(self, symbol: str) -> Any:
+        self._require_mt5()
         return mt5.symbol_info(symbol)
 
     def symbol_info_tick(self, symbol: str) -> Any:
+        self._require_mt5()
         return mt5.symbol_info_tick(symbol)
 
     def copy_rates_from_pos(self, symbol: str, timeframe: int, start_pos: int, count: int) -> Any:
+        self._require_mt5()
         return mt5.copy_rates_from_pos(symbol, timeframe, start_pos, count)
 
     def market_book_add(self, symbol: str) -> bool:
+        self._require_mt5()
         return bool(mt5.market_book_add(symbol))
 
     def market_book_get(self, symbol: str) -> Any:
+        self._require_mt5()
         return mt5.market_book_get(symbol)
 
     def order_check(self, request: dict[str, Any]) -> Any:
+        self._require_mt5()
         return mt5.order_check(request)
 
     def order_send(self, request: dict[str, Any]) -> Any:
+        self._require_mt5()
         return mt5.order_send(request)
 
     def account_info(self) -> Any:
+        self._require_mt5()
         return mt5.account_info()
 
     def as_dict(self, value: Any) -> dict[str, Any]:

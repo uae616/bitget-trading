@@ -4,6 +4,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
 
+from .constants import DEFAULT_DEVIATION_POINTS, DEFAULT_MAGIC_NUMBER
+
 
 @dataclass(frozen=True)
 class MarketSnapshot:
@@ -35,8 +37,8 @@ class TradeRequest:
     price: float
     stop_loss: float | None = None
     take_profit: float | None = None
-    deviation: int = 20
-    magic: int = 50001
+    deviation: int = DEFAULT_DEVIATION_POINTS
+    magic: int = DEFAULT_MAGIC_NUMBER
     comment: str = "ai-agent"
 
 
