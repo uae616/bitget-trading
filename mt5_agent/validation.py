@@ -1,8 +1,7 @@
 from __future__ import annotations
 
-from typing import Any
-
 from .mt5_client import MT5Client
+from .mt5_payload import to_mt5_request
 from .types import TradeRequest
 
 
@@ -40,33 +39,12 @@ class TradeRequestValidator:
         if request.take_profit is not None and abs(request.price - request.take_profit) < min_stop_distance:
             raise ValueError("Take-profit too close to entry")
 
-        check_request = _to_mt5_request(request)
+        check_request = to_mt5_request(request)
         check = self.client.order_check(check_request)
         if check is None:
             raise ValueError("Margin check failed: no response")
 
         retcode = int(getattr(check, "retcode", 0))
         if retcode != 0:
-            raise ValueError(f"Margin/order check failed with retcode={retcode}")
-
-
-def _to_mt5_request(request: TradeRequest) -> dict[str, Any]:
-    from MetaTrader5 import ORDER_TYPE_BUY, ORDER_TYPE_SELL, TRADE_ACTION_DEAL
-
-    side = request.side.lower()
-    order_type = ORDER_TYPE_BUY if side == "buy" else ORDER_TYPE_SELL
-    payload = {
-        "action": TRADE_ACTION_DEAL,
-        "symbol": request.symbol,
-        "volume": request.volume,
-        "type": order_type,
-        "price": request.price,
-        "deviation": request.deviation,
-        "magic": request.magic,
-        "comment": request.comment,
-    }
-    if request.stop_loss is not None:
-        payload["sl"] = request.stop_loss
-    if request.take_profit is not None:
-        payload["tp"] = request.take_profit
-    return payload
+            reason = str(getattr(check, "comment", "unknown"))
+            raise ValueError(f"Margin/order check failed with retcode={retcode}: {reason}")

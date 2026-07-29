@@ -4,7 +4,7 @@ MT5 integration scaffold for an AI-driven trading agent using the official `Meta
 
 ## What is implemented
 
-- **MT5 Python bridge integration** via `/home/runner/work/bitget-trading/bitget-trading/mt5_agent/mt5_client.py`
+- **MT5 Python bridge integration** via `mt5_agent/mt5_client.py`
 - **Modular architecture**:
   - Market data adapter (`market_data.py`)
   - Decision engine interface (`decision.py`)
@@ -22,7 +22,7 @@ MT5 integration scaffold for an AI-driven trading agent using the official `Meta
   - Connection health checks
   - Reconnect support
   - Retry policy on execution
-  - In-memory idempotency key blocking for duplicate orders
+  - Persistent idempotency key blocking for duplicate orders
   - Structured audit logging (`audit.log` JSON lines)
 - **Staged rollout helpers**:
   - Backtest interface (`simulation.py`)
@@ -45,6 +45,7 @@ Set these before running:
 - `DRY_RUN` (optional, default `false`)
 - `PAPER_MODE` (optional, default `true`)
 - `AUDIT_LOG_PATH` (optional, default `audit.log`)
+- `IDEMPOTENCY_STORE_PATH` (optional, default `.idempotency_keys`)
 
 ## Runtime notes
 
@@ -56,7 +57,7 @@ Set these before running:
 
 ```bash
 pip install MetaTrader5
-python /home/runner/work/bitget-trading/bitget-trading/main.py
+python main.py
 ```
 
 `main.py` currently wires a `NoopDecisionEngine`; replace it with your model-backed strategy implementation.

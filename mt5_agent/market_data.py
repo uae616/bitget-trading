@@ -24,12 +24,15 @@ class MarketDataAdapter:
         bid = float(tick.bid)
         ask = float(tick.ask)
         spread = ask - bid
+        tick_ts = getattr(tick, "time", None)
+        snapshot_ts = datetime.fromtimestamp(int(tick_ts), tz=timezone.utc) if tick_ts else datetime.now(timezone.utc)
+
         return MarketSnapshot(
             symbol=symbol,
             bid=bid,
             ask=ask,
             spread=spread,
-            timestamp=datetime.now(timezone.utc),
+            timestamp=snapshot_ts,
             features={"last": float(getattr(tick, "last", ask)), "volume": float(getattr(tick, "volume", 0.0))},
         )
 

@@ -53,6 +53,7 @@ class RiskConfig:
 class RuntimeConfig:
     dry_run: bool = False
     audit_log_path: str = "audit.log"
+    idempotency_store_path: str = ".idempotency_keys"
     poll_interval_seconds: int = 5
     paper_mode: bool = True
 
@@ -61,6 +62,7 @@ class RuntimeConfig:
         return cls(
             dry_run=os.getenv("DRY_RUN", "false").lower() == "true",
             audit_log_path=os.getenv("AUDIT_LOG_PATH", "audit.log"),
+            idempotency_store_path=os.getenv("IDEMPOTENCY_STORE_PATH", ".idempotency_keys"),
             poll_interval_seconds=int(os.getenv("POLL_INTERVAL_SECONDS", "5")),
             paper_mode=os.getenv("PAPER_MODE", "true").lower() == "true",
         )

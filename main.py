@@ -39,7 +39,12 @@ def build_agent() -> TradingAgent:
     decision_engine = NoopDecisionEngine()
     risk_guard = RiskGuard(risk_config)
     validator = TradeRequestValidator(client)
-    execution = ExecutionAdapter(client, max_retries=risk_config.max_retries, audit_logger=audit)
+    execution = ExecutionAdapter(
+        client,
+        max_retries=risk_config.max_retries,
+        audit_logger=audit,
+        idempotency_store_path=runtime.idempotency_store_path,
+    )
 
     logger.info("Trading agent initialized")
     return TradingAgent(market_data, decision_engine, risk_guard, validator, execution, audit)
