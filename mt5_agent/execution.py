@@ -5,6 +5,7 @@ import json
 import time
 from pathlib import Path
 
+from .constants import ORDER_SEND_DONE
 from .logging_utils import AuditLogger
 from .mt5_client import MT5Client
 from .mt5_payload import to_mt5_request
@@ -59,7 +60,7 @@ class ExecutionAdapter:
                 },
             )
 
-            if retcode == 10009:
+            if retcode == ORDER_SEND_DONE:
                 self._seen_idempotency_keys.add(key)
                 with self._idempotency_store.open("a", encoding="utf-8") as fp:
                     fp.write(key + "\n")

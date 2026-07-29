@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from dataclasses import asdict
+
 from .decision import DecisionEngine
 from .execution import ExecutionAdapter
 from .logging_utils import AuditLogger
@@ -43,8 +45,8 @@ class TradingAgent:
             "agent.decision",
             {
                 "symbol": symbol,
-                "signal": signal.__dict__,
-                "trade_result": result.__dict__,
+                "signal": asdict(signal),
+                "trade_result": asdict(result),
             },
         )
         return result

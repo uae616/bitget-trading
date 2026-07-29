@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from .constants import ORDER_CHECK_OK
 from .mt5_client import MT5Client
 from .mt5_payload import to_mt5_request
 from .types import TradeRequest
@@ -45,6 +46,6 @@ class TradeRequestValidator:
             raise ValueError("Margin check failed: no response")
 
         retcode = int(getattr(check, "retcode", 0))
-        if retcode != 0:
+        if retcode != ORDER_CHECK_OK:
             reason = str(getattr(check, "comment", "unknown"))
             raise ValueError(f"Margin/order check failed with retcode={retcode}: {reason}")

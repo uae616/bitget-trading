@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections.abc import Iterable
+from dataclasses import asdict
 
 from .decision import DecisionEngine
 from .types import MarketSnapshot
@@ -18,7 +19,7 @@ class BacktestEngine:
                 {
                     "timestamp": snap.timestamp,
                     "symbol": snap.symbol,
-                    "signal": None if signal is None else signal.__dict__,
+                    "signal": None if signal is None else asdict(signal),
                 }
             )
         return decisions

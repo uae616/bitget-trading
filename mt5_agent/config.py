@@ -20,10 +20,9 @@ class MT5Config:
 
     @classmethod
     def from_env(cls) -> "MT5Config":
-        secret_key = "MT5_" + "PASS" + "WORD"
         return cls(
             login=int(os.environ["MT5_LOGIN"]),
-            secret=os.environ[secret_key],
+            secret=os.environ["MT5_PASSWORD"],
             server=os.environ["MT5_SERVER"],
             path=os.getenv("MT5_TERMINAL_PATH"),
             timeout_ms=int(os.getenv("MT5_TIMEOUT_MS", "15000")),

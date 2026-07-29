@@ -30,7 +30,7 @@ class MT5Client:
             "server": self.config.server,
             "timeout": self.config.timeout_ms,
         }
-        init_kwargs["pass" + "word"] = self.config.secret
+        init_kwargs["password"] = self.config.secret
         initialize_ok = mt5.initialize(**init_kwargs)
         if not initialize_ok:
             self._connected = False
