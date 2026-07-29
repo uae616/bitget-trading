@@ -39,7 +39,7 @@ class TradingAgent:
 
         request = _signal_to_request(signal, snapshot.ask if signal.side.lower() == "buy" else snapshot.bid, default_volume)
 
-        account = self.execution.client.account_info()
+        account = self.execution.account_info()
         if account is not None:
             balance = float(getattr(account, "balance", 0.0))
             equity = float(getattr(account, "equity", 0.0))

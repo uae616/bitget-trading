@@ -35,7 +35,7 @@ class RiskConfig:
     risk_per_trade_pct: float = 1.0
     max_retries: int = 3
     trade_start: time = field(default_factory=lambda: time(hour=0, minute=0))
-    trade_end: time = field(default_factory=lambda: time(hour=23, minute=59))
+    trade_end: time = field(default_factory=lambda: time(hour=23, minute=59, second=59))
 
     @classmethod
     def from_env(cls) -> "RiskConfig":

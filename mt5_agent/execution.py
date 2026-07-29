@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import time
 from pathlib import Path
 
@@ -19,9 +20,14 @@ class ExecutionAdapter:
         self.audit_logger = audit_logger
         self._idempotency_store = Path(idempotency_store_path)
         self._idempotency_store.parent.mkdir(parents=True, exist_ok=True)
+        if not os.access(self._idempotency_store.parent, os.W_OK):
+            raise PermissionError(f"Idempotency store path is not writable: {self._idempotency_store.parent}")
         self._seen_idempotency_keys: set[str] = set()
         if self._idempotency_store.exists():
             self._seen_idempotency_keys = {line.strip() for line in self._idempotency_store.read_text(encoding="utf-8").splitlines() if line.strip()}
+
+    def account_info(self):
+        return self.client.account_info()
 
     def execute(self, request: TradeRequest) -> TradeResult:
         key = _build_idempotency_key(request)
@@ -34,6 +40,9 @@ class ExecutionAdapter:
             )
 
         payload = to_mt5_request(request)
+        self._seen_idempotency_keys.add(key)
+        with self._idempotency_store.open("a", encoding="utf-8") as fp:
+            fp.write(key + "\n")
         self.audit_logger.write("trade.request", {"request": payload, "request_id": request.request_id})
 
         for attempt in range(1, self.max_retries + 1):
@@ -61,9 +70,6 @@ class ExecutionAdapter:
             )
 
             if retcode == ORDER_SEND_DONE:
-                self._seen_idempotency_keys.add(key)
-                with self._idempotency_store.open("a", encoding="utf-8") as fp:
-                    fp.write(key + "\n")
                 return TradeResult(request.request_id, True, retcode, comment, int(order_id or 0))
 
             if attempt < self.max_retries:
